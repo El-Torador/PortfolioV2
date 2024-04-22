@@ -33,9 +33,7 @@ function useThemeSwitcher() {
       }
     }
 
-    handleChange();
-
-    mediaQuery.addEventListener("change", (e) => handleChange);
+    mediaQuery.addEventListener("change", handleChange);
 
     return () => mediaQuery.removeEventListener("change", handleChange);
   }, []);

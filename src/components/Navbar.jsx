@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
 import { LinkedInIcon, GithubIcon, TwitterIcon, DribbbleIcon, PinterestIcon, SunIcon, MoonIcon } from "./Icons";
-import useThemeSwitcher from "@/hooks/useThemeSwitcher";
+import useTheme from "@/hooks/useTheme";
 
 const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
@@ -20,7 +20,7 @@ const CustomLink = ({ href, title, className = "" }) => {
 }
 
 function Navbar() {
-  const [mode, setMode] = useThemeSwitcher();
+  const { theme, toggleTheme } = useTheme();
   return <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light">
     <nav>
       <CustomLink href="/" title="Home" className="mr-4" />
@@ -75,11 +75,11 @@ function Navbar() {
         <DribbbleIcon />
       </motion.a>
       <button
-        onClick={() => setMode(mode === "light" ? "dark" : "light")}
+        onClick={toggleTheme}
         className="ml-3 w-9 flex items-center justify-center rounded-full p-1"
       >
         {
-          mode === "dark" ?
+          theme === "dark" ?
             <SunIcon className="fill-dark" />
             : <MoonIcon className="fill-dark" />
         }

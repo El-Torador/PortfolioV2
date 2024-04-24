@@ -14,7 +14,7 @@ import SurferImg from "../../public/images/projects/Surfer-light.png";
 import SurferImgDark from "../../public/images/projects/Surfer-dark.png";
 import communityProject from "../../public/images/projects/community.png";
 import TysDataImg from "../../public/images/projects/TysData.png";
-import useThemeSwitcher from "@/hooks/useThemeSwitcher";
+import useTheme from "@/hooks/useTheme";
 
 const FramerImage = motion(Image);
 
@@ -24,12 +24,12 @@ const FramerImage = motion(Image);
  * @returns {JSX.Element}
  */
 const FeaturedProject = ({ type, title, summary, imgUrl, darkImgUrl, link, github, skills = [] }) => {
-  const [mode] = useThemeSwitcher();
+  const { theme } = useTheme();
   return <article className="w-full flex items-center justify-between rounded-3xl border border-solid border-dark dark:text-light bg-light dark:bg-dark dark:border-light shadow-2xl p-12 relative">
     <div className="absolute top-0 -right-3 -z-10 w-[100.7%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light" />
     <Link href={link} target="_blank" className="w-1/2 inline-block cursor-pointer overflow-hidden rounded-lg">
       <FramerImage
-        src={mode === 'light' ? imgUrl : darkImgUrl || imgUrl}
+        src={theme === 'light' ? imgUrl : darkImgUrl || imgUrl}
         alt={title}
         className="w-full h-auto"
         whileHover={{ scale: 1.05 }}
@@ -61,12 +61,12 @@ const FeaturedProject = ({ type, title, summary, imgUrl, darkImgUrl, link, githu
  * @returns {JSX.Element}
  */
 const Project = ({ title, type, summary, imgUrl, darkImgUrl, link, github, skills = [] }) => {
-  const [mode] = useThemeSwitcher();
+  const { theme } = useTheme();
   return <article className="relative bg-light dark:bg-dark rounded-3xl p-8 border border-solid border-dark dark:border-light dark:text-light min-h-full">
     <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light" />
     <Link href={link} target="_blank" className="w- inline-block cursor-pointer overflow-hidden rounded-lg">
       <FramerImage
-        src={mode === 'light' ? imgUrl : darkImgUrl || imgUrl}
+        src={theme === 'light' ? imgUrl : darkImgUrl || imgUrl}
         alt={title}
         className="w-full h-auto rounded-lg"
         whileHover={{ scale: 1.05 }}

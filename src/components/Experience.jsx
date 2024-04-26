@@ -15,6 +15,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
       initial={{ y: 50 }}
       whileInView={{ y: 0 }}
       transition={{ duration: 0.5, type: "spring" }}
+      className="w-full"
     >
       <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
         {position}&nbsp;

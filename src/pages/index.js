@@ -18,25 +18,25 @@ export default function Home() {
       </Head>
       <TransitionEffect />
       <main className="flex items-center text-dark w-full min-h-screen">
-        <Layout className='pt-0'>
-          <div className="flex items-center justify-between w-full">
-            <section className="w-1/2 relative">
+        <Layout className='pt-0 md:pt-16 sm:pt-8'>
+          <div className="flex items-center justify-between w-full lg:flex-col">
+            <section className="w-1/2 relative md:w-full">
               {/* Make eye light in dark mode */}
-              <div className="hidden absolute -z-10 bg-light px-20 xl:px-32 py-10 top-1/3 right-1/4 lg:inline-block" />
-              <Image src={profilePic} alt="Torador" className="w-full h-auto" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw" priority />
+              <div className="lg:hidden absolute -z-10 bg-light px-20 xl:px-16 xl:py-7 py-10 top-[36%] right-1/4 md:inline-block sm:px-16 sm:py-5 xs:px-8 xs:py-6" />
+              <Image src={profilePic} alt="Torador" className="w-full h-auto lg:hidden md:inline-block md:w-full" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw" priority />
             </section>
-            <section className="w-1/2 flex flex-col items-center self-center">
-              <AnimatedText text="Turning Vision Into Reality With Code And Engineering." className="!text-6xl !text-left" />
-              <p className="my-4 text-base font-medium text-slate-700 dark:text-light">
+            <section className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
+              <AnimatedText text="Turning Vision Into Reality With Code And Engineering." className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl" />
+              <p className="my-4 text-base font-medium text-slate-700 dark:text-light md:text-sm sm:text-xs">
                 As a skilled full-stact developer, i am dedicated to creating and optimizing interactive, user-friendly, and feature-rich websites and applications. I have a passion for writing clean, efficient, and accessible code that is easy to maintain and scale. I am a quick learner and a great team player who is always ready to take on new challenges and work with new technologies.
               </p>
-              <div className="flex items-center self-start mt-2">
+              <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
                   href="/dummy.pdf"
                   target="_blank"
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold
                    hover:bg-light hover:text-dark border border-solid border-transparent hover:border-dark transition-colors duration-300 ease-in-out
-                    dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:border-dark dark:hover:border-light"
+                    dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:border-dark dark:hover:border-light md:p-2 md:px-4 md:text-base"
                   download
                 >
                   Resume <LinkArrow className="!w-6 !h-6 ml-1" />
@@ -44,14 +44,14 @@ export default function Home() {
                 <Link
                   href="mailto:kagmeni77@gmail.com"
                   target="_blank"
-                  className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light"
+                  className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >Contact</Link>
               </div>
             </section>
           </div>
         </Layout>
         <HireMe />
-        <div className='absolute right-8 bottom-8 inline-block w-24'>
+        <div className='absolute right-8 bottom-8 inline-block w-24 md:hidden'>
           <Image src={lightBlue} alt="Mind Idea Innovation." className="w-full h-auto" />
         </div>
       </main>

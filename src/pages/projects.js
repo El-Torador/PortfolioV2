@@ -25,9 +25,9 @@ const FramerImage = motion(Image);
  */
 const FeaturedProject = ({ type, title, summary, imgUrl, darkImgUrl, link, github, skills = [] }) => {
   const { theme } = useTheme();
-  return <article className="w-full flex items-center justify-between rounded-3xl border border-solid border-dark dark:text-light bg-light dark:bg-dark dark:border-light shadow-2xl p-12 relative">
-    <div className="absolute top-0 -right-3 -z-10 w-[100.7%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light" />
-    <Link href={link} target="_blank" className="w-1/2 inline-block cursor-pointer overflow-hidden rounded-lg">
+  return <article className="featured-section-container">
+    <div className="absolute top-0 -right-3 -z-10 w-[100.7%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light xs:-right-2  sm:h-[102%] xs:w-full xs:rounded-[1.5rem]" />
+    <Link href={link} target="_blank" className="featured-link">
       <FramerImage
         src={theme === 'light' ? imgUrl : darkImgUrl || imgUrl}
         alt={title}
@@ -38,15 +38,15 @@ const FeaturedProject = ({ type, title, summary, imgUrl, darkImgUrl, link, githu
         priority
       />
     </Link>
-    <div className="w-1/2 flex flex-col items-start justify-between pl-6">
-      <span className="text-primary dark:text-primaryDark font-medium text-xl">{type}</span>
+    <div className="featured-body">
+      <span className="text-primary dark:text-primaryDark font-medium text-xl xs:text-base">{type}</span>
       <Link href={link} target="_blank" className="hover:underline underline-offset-2">
-        <h2 className="my-2 w-full text-left font-bold text-4xl">{title}</h2>
+        <h2 className="my-2 w-full text-left font-bold text-4xl xs:text-base">{title}</h2>
       </Link>
-      <p className="my-2 font-medium text-dark">{summary}</p>
+      <p className="my-2 font-medium sm:text-sm">{summary}</p>
       <div className="mt-2 flex items-center">
         <Link href={github} target="_blank" className="w-10"><GithubIcon /></Link>
-        <Link href={link} target="_blank" className="ml-4 rounded-lg bg-dark dark:bg-light text-light dark:text-dark p-2 px-6 text-lg font-semibold hover:shadow transition-shadow">View Project</Link>
+        <Link href={link} target="_blank" className="featured-btn">View Project</Link>
       </div>
       <ul className="flex flex-wrap mt-4 gap-2">
         {skills.map((tag, index) => <Tag key={index} tag={tag} />)}
@@ -62,9 +62,9 @@ const FeaturedProject = ({ type, title, summary, imgUrl, darkImgUrl, link, githu
  */
 const Project = ({ title, type, summary, imgUrl, darkImgUrl, link, github, skills = [] }) => {
   const { theme } = useTheme();
-  return <article className="relative bg-light dark:bg-dark rounded-3xl p-8 border border-solid border-dark dark:border-light dark:text-light min-h-full">
-    <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light" />
-    <Link href={link} target="_blank" className="w- inline-block cursor-pointer overflow-hidden rounded-lg">
+  return <article className="project-section-container">
+    <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]" />
+    <Link href={link} target="_blank" className="project-link">
       <FramerImage
         src={theme === 'light' ? imgUrl : darkImgUrl || imgUrl}
         alt={title}
@@ -75,15 +75,15 @@ const Project = ({ title, type, summary, imgUrl, darkImgUrl, link, github, skill
         priority
       />
     </Link>
-    <div className="w-full flex flex-col items-start justify-between pl-6">
-      <span className="text-primary dark:text-primaryDark font-medium text-xl">{type}</span>
+    <div className="project-body">
+      <span className="text-primary dark:text-primaryDark font-medium text-xl lg:text-lg xs:text-base">{type}</span>
       <Link href={link} target="_blank" className="hover:underline underline-offset-2">
-        <h2 className="my-2 w-full text-left font-bold text-3xl">{title}</h2>
+        <h2 className="my-2 w-full text-left font-bold text-3xl lg:text-2xl xs:text-base">{title}</h2>
       </Link>
       <p className="my-2 font-medium">{summary}</p>
       <div className="mt-2 flex items-center">
         <Link href={github} target="_blank" className="w-10"><GithubIcon /></Link>
-        <Link href={link} target="_blank" className="ml-4 rounded-lg bg-dark dark:bg-light text-light dark:text-dark p-2 px-6 text-lg font-semibold hover:shadow transition-shadow">View</Link>
+        <Link href={link} target="_blank" className="project-btn">View</Link>
       </div>
       <ul className="flex flex-wrap mt-4 gap-2">
         {skills.map((tag, index) => <Tag key={index} tag={tag} />)}
@@ -101,8 +101,8 @@ function projects() {
     <TransitionEffect />
     <main className="w-full mb-16 flex flex-col items-center justify-center">
       <Layout className="pt-16">
-        <AnimatedText text="Imagination Trumps Knowledge!" className="mb-16" />
-        <div className="grid grid-cols-12 gap-24">
+        <AnimatedText text="Imagination Trumps Knowledge!" className="page-title" />
+        <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
           <div className="col-span-12">
             <FeaturedProject
               imgUrl={SurferImg}
@@ -115,7 +115,7 @@ function projects() {
               skills={["NextJS", "RecoilJS", "AdonisJS", "TypeScript", "PostgreSQL", "SSE", "TailwindCSS", "Machine Learning", "CI/CD", "Docker", "Scrum Methodology", "Dark Mode", "Leadership"]}
             />
           </div>
-          <div className="col-span-6">
+          <div className="col-span-6 sm:col-span-12">
             <Project
               imgUrl={communityProject}
               title="Torador Community"
@@ -127,7 +127,7 @@ function projects() {
             />
           </div>
 
-          <div className="col-span-6">
+          <div className="col-span-6 sm:col-span-12">
             <Project
               imgUrl={DemineurImg}
               darkImgUrl={DemineurImgDark}

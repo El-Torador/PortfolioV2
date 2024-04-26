@@ -43,7 +43,7 @@ const MovingImg = ({ title, imgUrl, link }) => {
       ref={imgRef}
       src={imgUrl}
       alt={title}
-      className="z-10 w-96 h-auto hidden absolute rounded-lg"
+      className="z-10 w-96 h-auto hidden absolute rounded-lg md:!hidden"
       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
       priority
     />
@@ -78,7 +78,7 @@ const FeaturedArticle = ({ imgUrl, title, time, summary, link }) => {
         />
       </Link>
       <Link href={link} target="_blank" className="hover:underline underline-offset-2">
-        <h2 className="capitalize text-2xl font-bold mt-4 my-2">{title}</h2>
+        <h2 className="capitalize text-2xl font-bold mt-4 my-2 xs:text-lg">{title}</h2>
       </Link>
       <p className="text-sm mb-2">{summary}</p>
       <span className="text-primary dark:text-primaryDark font-semibold">{time}</span>
@@ -95,8 +95,8 @@ function articles() {
     <TransitionEffect />
     <main className="mb-16 flex w-full flex-col items-center justify-center overflow-hidden dark:text-light">
       <Layout className="pt-16">
-        <AnimatedText text="Words Can Change the World!" className="mb-16" />
-        <ul className="grid grid-cols-2 gap-16">
+        <AnimatedText text="Words Can Change the World!" className="page-title" />
+        <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
           <FeaturedArticle
             imgUrl={vpcMongoArticle}
             title="Create a secure connection between App Runner and Mongo DB Atlas in an AWS infra-structure using VPC (Virtual Private Cloud)"

@@ -39,7 +39,7 @@ function Education() {
     }
   );
   return <div className="my-64">
-    <h2 className="font-bold text-8xl mb-32 w-full text-center">Education</h2>
+    <h2 className="section-title xs:text-4xl mb-64 md:mb-16">Education</h2>
 
     <section ref={ref} className="w-[75%] mx-auto relative">
       <motion.div

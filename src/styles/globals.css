@@ -1,3 +1,98 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer components {
+  .jk-logo {
+    @apply w-16 h-16 bg-dark text-light flex items-center justify-center rounded-full text-2xl font-bold dark:border-light border border-solid border-transparent;
+  }
+  .wave {
+    @apply fixed top-0 bottom-0 right-full w-screen h-screen;
+  }
+
+  .page-title {
+    @apply mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8;
+  }
+
+  .header {
+    @apply z-10 lg:px-16 md:px-12 w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative;
+  }
+
+  .nav-desktop-container {
+    @apply w-full flex justify-between items-center lg:hidden;
+  }
+  
+  .nav-mobile-container {
+    @apply z-30 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32 min-w-[70vw] flex flex-col justify-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+
+  .nav-mobile-links-container {
+    @apply flex flex-col items-center justify-center;
+  }
+
+  .nav-link-underline {
+    @apply h-[2px] inline-block absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease-linear duration-300;
+  }
+
+  .nav-social-links-container {
+    @apply flex items-center justify-center flex-wrap
+  }
+
+  .section-title {
+    @apply font-bold text-8xl mt-64 w-full text-center md:text-6xl;
+  }
+
+  .section-skills {
+    @apply w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] lg:bg-circularLightLg lg:dark:bg-circularDarkLg md:bg-circularLightMd md:dark:bg-circularDarkMd sm:bg-circularLightSm sm:dark:bg-circularDarkSm;
+  }
+
+  .skill {
+    @apply absolute flex items-center justify-center rounded-full font-semibold bg-dark
+     text-light shadow-dark cursor-pointer dark:bg-light dark:text-dark lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 sm:bg-transparent sm:dark:bg-transparent sm:text-dark sm:dark:text-light sm:font-bold
+  }
+
+  .featured-section-container {
+    @apply w-full flex items-center justify-between rounded-3xl border border-solid border-dark dark:text-light bg-light dark:bg-dark dark:border-light shadow-2xl p-12 relative lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4;
+  }
+
+  .featured-link {
+    @apply w-1/2 inline-block cursor-pointer overflow-hidden rounded-lg lg:w-full;
+  }
+
+  .featured-body {
+    @apply w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6;
+  }
+
+  .project-section-container {
+    @apply relative bg-light dark:bg-dark rounded-3xl p-8 border border-solid border-dark dark:border-light dark:text-light min-h-full xs:p-4;
+  }
+  
+  .featured-btn {
+    @apply ml-4 rounded-lg bg-dark dark:bg-light text-light dark:text-dark p-2 px-6 text-lg font-semibold hover:shadow transition-shadow sm:px-4 sm:text-base;
+  }
+
+  .project-link {
+    @apply w-full inline-block cursor-pointer overflow-hidden rounded-lg
+  }
+
+  .project-body {
+    @apply w-full flex flex-col items-start justify-between pl-6;
+  }
+
+  .project-btn {
+    @apply ml-4 rounded-lg bg-dark dark:bg-light text-light dark:text-dark p-2 px-6 text-lg font-semibold hover:shadow transition-shadow md:text-base;
+  }
+
+  .hamburger-btn {
+    @apply hidden lg:flex flex-col justify-center items-center;
+  }
+  .hamburger-bar {
+    @apply bg-dark dark:bg-light block h-0.5 w-6 rounded-sm transition-all duration-300 ease-out;
+  }
+
+  .theme-btn {
+    @apply ml-3 w-9 flex items-center justify-center rounded-full p-1;
+  }
+}

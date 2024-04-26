@@ -4,12 +4,12 @@ import { motion } from "framer-motion"
 
 const MotionLink = motion(Link);
 
-function Logo() {
+function JKLogo() {
   return <div className="flex items-center justify-center mt-2">
     <MotionLink
       title="Jordan Kagmeni's Portfolio."
       href="/"
-      className="w-16 h-16 bg-dark text-light flex items-center justify-center rounded-full text-2xl font-bold dark:border-light border border-solid border-transparent"
+      className="jk-logo"
       whileHover={{
         backgroundColor: ["#121212", "rgba(131,58,180,1)", "rgba(253,29,29,1)", "rgba(252,176,69,1)", "rgba(131,58,180,1)", "#121212"],
         transition: { duration: 1, repeat: Infinity }
@@ -20,4 +20,4 @@ function Logo() {
   </div>;
 }
 
-export default Logo;
+export default JKLogo;

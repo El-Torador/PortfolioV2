@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 
 const Skill = ({ title, x, y, inertie = false }) => {
   return <motion.div
-    className={`absolute flex items-center justify-center rounded-full font-semibold bg-dark text-light shadow-dark cursor-pointer dark:bg-light dark:text-dark ${inertie ? 'p-8' : 'py-3 px-6'}`}
+    className={`skill ${inertie ? 'p-8' : 'py-3 px-6'}
+     `}
     whileHover={{ scale: 1.05 }}
     initial={{ x: 0, y: 0 }}
     whileInView={{ x, y, transition: { duration: 1.5 } }}
@@ -15,8 +16,8 @@ const Skill = ({ title, x, y, inertie = false }) => {
 
 function Skills() {
   return <>
-    <h2 className="font-bold text-8xl mt-64 w-full text-center">Skills</h2>
-    <section className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark">
+    <h2 className="section-title md:mt-32">Skills</h2>
+    <section className="section-skills">
       <Skill title="Web" inertie />
       <Skill title="HTML" x="9vw" y="0vw" />
       <Skill title="CSS" x="-8vw" y="2vw" />

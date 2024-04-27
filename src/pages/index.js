@@ -32,14 +32,20 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href="/JordanKAGMENI.pdf"
-                  target="_blank"
-                  className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold
-                   hover:bg-light hover:text-dark border border-solid border-transparent hover:border-dark transition-colors duration-300 ease-in-out
-                    dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:border-dark dark:hover:border-light md:p-2 md:px-4 md:text-base"
+                  href="/RESUME-JK.pdf"
+                  target='_blank'
+                  className="resume-btn"
                   download
                 >
                   Resume <LinkArrow className="!w-6 !h-6 ml-1" />
+                </Link>
+                <Link
+                  href="/CV-JK.pdf"
+                  target='_blank'
+                  className="cv-btn md:hidden"
+                  download
+                >
+                  CV <LinkArrow className="!w-6 !h-6 ml-1" />
                 </Link>
                 <Link
                   href="mailto:kagmeni77@gmail.com"

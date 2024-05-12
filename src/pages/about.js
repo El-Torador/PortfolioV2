@@ -9,6 +9,7 @@ import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import TransitionEffect from "@/components/TransitionEffect";
 import profilePic from '../../public/images/profile/Torador.jpg'
+import SoftSkills from "@/components/SoftSkiils";
 
 function about() {
   return (<>
@@ -73,6 +74,7 @@ function about() {
         </div>
 
         <Skills />
+        <SoftSkills />
         <Experience />
         <Education />
       </Layout>

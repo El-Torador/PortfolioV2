@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 const Skill = ({ title, x, y, inertie = false }) => {
   return <motion.div
+    title="Web & Mobile Development"
     className={`skill ${inertie ? 'p-8' : 'py-3 px-6'}
      `}
     whileHover={{ scale: 1.05 }}
@@ -16,7 +17,7 @@ const Skill = ({ title, x, y, inertie = false }) => {
 
 function Skills() {
   return <>
-    <h2 className="section-title md:mt-32">Skills</h2>
+    <h2 className="section-title md:mt-32">Hard Skills</h2>
     <section className="section-skills">
       <Skill title="Web" inertie />
       <Skill title="HTML" x="9vw" y="0vw" />

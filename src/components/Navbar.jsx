@@ -1,6 +1,6 @@
 import Link from "next/link";
-import React, { useState } from "react";
-import { motion } from "framer-motion";
+import React, { useEffect, useState } from "react";
+import { motion, useAnimation } from "framer-motion";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
 import { LinkedInIcon, GithubIcon, TwitterIcon, DribbbleIcon, PinterestIcon, SunIcon, MoonIcon } from "./Icons";
@@ -46,12 +46,44 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
 function Navbar() {
   const { theme, toggleTheme } = useTheme();
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const controls = useAnimation();
 
   const handleClick = () => {
     setIsOpen(!isOpen);
   }
 
-  return <header className="header">
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      const offsetToTrigger = window.location.pathname === '/' ? Infinity : 120;
+      if (offset > offsetToTrigger) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    controls.start({
+      y: scrolled ? [-100, 0] : 0,
+      transition: { duration: 0.3 },
+      autoReverse: true,
+    });
+  }, [scrolled, controls]);
+
+  return <motion.header
+    className={`header ${scrolled ? "backdrop-blur-sm fixed" : ""}`}
+    initial={{ y: scrolled ? [-100, 0] : 0 }}
+    animate={controls}
+  >
 
     {/* DESKTOP NAV */}
     <div className="nav-desktop-container">
@@ -201,7 +233,7 @@ function Navbar() {
     <div className="absolute left-[50%] top-2 translate-x-[-50%]">
       <Logo />
     </div>
-  </header >;
+  </motion.header>;
 }
 
 export default Navbar;

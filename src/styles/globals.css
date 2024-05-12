@@ -17,7 +17,7 @@
   }
 
   .header {
-    @apply z-10 lg:px-16 md:px-12 w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative;
+    @apply z-10 lg:px-16 md:px-12 w-full px-32 py-7 font-medium flex items-center justify-between dark:text-light relative;
   }
 
   .nav-desktop-container {

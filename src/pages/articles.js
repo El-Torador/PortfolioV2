@@ -7,6 +7,10 @@ import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import TransitionEffect from "@/components/TransitionEffect";
 import vpcMongoArticle from "../../public/images/articles/article1.jpeg";
+import roleOfTechnology from "../../public/images/articles/article2.jpg";
+import resilienceImage from "../../public/images/articles/resilience.png";
+import leadershipImage from "../../public/images/articles/leadership.webp";
+
 
 const FramerImage = motion(Image);
 
@@ -103,6 +107,28 @@ function articles() {
             time="5 min read"
             summary="Secure your connection between App Runner and Mongo DB Atlas in an AWS infra-structure using VPC safely."
             link="https://www.linkedin.com/pulse/cr%2525C3%2525A9er-une-connexion-s%2525C3%2525A9curis%2525C3%2525A9-entre-app-runner-et-mongo-jordan-kagmeni-dolxe/?trackingId=5qSj9Ce9RDuNwT7WQubxhA%3D%3D"
+          />
+          <FeaturedArticle
+            imgUrl={roleOfTechnology}
+            title="The essential role of technology consulting in modern software engineering"
+            time="3 min read"
+            summary="The software engineering industry is evolving at a breathtaking pace, with new technologies, tools and services constantly emerging. In this ever-changing context, the skill
+          of consulting on technologies, tools and services is becoming crucial for software engineering professionals."
+            link="/articles/roleTech"
+          />
+          <FeaturedArticle
+            imgUrl={resilienceImage}
+            title="Resilience: The Key to Success in Engineering and Beyond"
+            time="4 min read"
+            summary="Resilience is one of the most essential qualities for a developer who wants to be flexible. In this article, I'll talk about it in a little more detail and show you how it helped me overcome my challenges."
+            link="/articles/resilience"
+          />
+          <FeaturedArticle
+            imgUrl={leadershipImage}
+            title="Leadership: Inspiring and Guiding towards Excellence"
+            time="4 min read"
+            summary="Leadership is a remarkable quality for both developers and managers. But how does it make you stand out from the crowd? I share my experience with you in this article."
+            link="/articles/leadership"
           />
         </ul>
         {/* <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">All Articles</h2>

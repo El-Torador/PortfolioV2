@@ -41,7 +41,7 @@
   }
 
   .section-title {
-    @apply font-bold text-8xl mt-64 w-full text-center md:text-6xl;
+    @apply font-bold text-7xl mt-64 w-full text-center md:text-6xl;
   }
 
   .section-skills {

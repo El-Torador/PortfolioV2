@@ -1,9 +1,9 @@
+import { Montserrat } from 'next/font/google'
+import Head from 'next/head'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import { ThemeProvider } from '@/context/theme-context'
 import '@/styles/globals.css'
-import { Montserrat } from 'next/font/google'
-import Head from 'next/head'
 
 const montserrat = Montserrat({
   subsets: ['latin'],

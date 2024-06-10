@@ -10,6 +10,10 @@ import vpcMongoArticle from "../../public/images/articles/article1.jpeg";
 import roleOfTechnology from "../../public/images/articles/article2.jpg";
 import resilienceImage from "../../public/images/articles/resilience.png";
 import leadershipImage from "../../public/images/articles/leadership.webp";
+import perfectionnisteImage from "../../public/images/articles/perfectionniste.webp";
+import optimisationbd from "../../public/images/articles/optimisationbd.png";
+import surferLogo from "../../public/images/articles/surfer.png";
+
 
 
 const FramerImage = motion(Image);
@@ -109,12 +113,11 @@ function articles() {
             link="https://www.linkedin.com/pulse/cr%2525C3%2525A9er-une-connexion-s%2525C3%2525A9curis%2525C3%2525A9-entre-app-runner-et-mongo-jordan-kagmeni-dolxe/?trackingId=5qSj9Ce9RDuNwT7WQubxhA%3D%3D"
           />
           <FeaturedArticle
-            imgUrl={roleOfTechnology}
-            title="The essential role of technology consulting in modern software engineering"
-            time="3 min read"
-            summary="The software engineering industry is evolving at a breathtaking pace, with new technologies, tools and services constantly emerging. In this ever-changing context, the skill
-          of consulting on technologies, tools and services is becoming crucial for software engineering professionals."
-            link="/articles/roleTech"
+            imgUrl={surferLogo}
+            title="Surfer : Réseau Social Professionnel Axé sur les Intérêts"
+            time="4 min read"
+            summary="I will share you one of my great expirience on apps development. Good reading !😉"
+            link="/articles/surfer"
           />
           <FeaturedArticle
             imgUrl={resilienceImage}
@@ -129,6 +132,28 @@ function articles() {
             time="4 min read"
             summary="Leadership is a remarkable quality for both developers and managers. But how does it make you stand out from the crowd? I share my experience with you in this article."
             link="/articles/leadership"
+          />
+          <FeaturedArticle
+            imgUrl={perfectionnisteImage}
+            title="Perfectionnisme : viser toujours plus haut... mais à quel prix ?"
+            time="6 min read"
+            summary="Perfectionism is a controversial attribute. Sometimes identified as a quality, a flaw or both, it's an adjective that characterizes me a lot."
+            link="/articles/perfectionnist"
+          />
+          <FeaturedArticle
+            imgUrl={optimisationbd}
+            title="Optimisation de la Base de Données et Migration vers une Architecture de Microservices pour Azatys"
+            time="4 min read"
+            summary="Take a look on my realisation to optimize infrastructure process in SAAS Application."
+            link="/articles/optimisationBD"
+          />
+          <FeaturedArticle
+            imgUrl={roleOfTechnology}
+            title="The essential role of technology consulting in modern software engineering"
+            time="3 min read"
+            summary="The software engineering industry is evolving at a breathtaking pace, with new technologies, tools and services constantly emerging. In this ever-changing context, the skill
+        of consulting on technologies, tools and services is becoming crucial for software engineering professionals."
+            link="/articles/roleTech"
           />
         </ul>
         {/* <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">All Articles</h2>

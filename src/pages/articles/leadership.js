@@ -9,7 +9,7 @@ export default function Article() {
     <>
       <Head>
         <title>Jordan Kagmeni · Leadership</title>
-        <meta name="description" content="Le Leadership : Inspirer et Guider vers l'Excellence " />
+        <meta name="description" content="Le Leadership : Inspirer et Guider vers l'Excellence" />
       </Head>
       <article className="pt-20 mx-auto w-3/6 lg:w-full lg:px-4 px-4 py-6 md:px-6 lg:py-16 md:py-12 dark:text-light">
         <div className="mx-auto">

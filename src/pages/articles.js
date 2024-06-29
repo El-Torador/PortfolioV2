@@ -74,7 +74,7 @@ const FeaturedArticle = ({ imgUrl, title, time, summary, link }) => {
   return (
     <li className="col-span-1 w-full p-4 bg-light dark:bg-dark border border-dark dark:border-light border-solid rounded-2xl relative">
       <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light" />
-      <Link href={link} target="_blank" className="w-full inline-block cursor-pointer overflow-hidden rounded-lg">
+      <Link href={link} className="w-full inline-block cursor-pointer overflow-hidden rounded-lg">
         <FramerImage
           src={imgUrl}
           alt={title}
@@ -85,7 +85,7 @@ const FeaturedArticle = ({ imgUrl, title, time, summary, link }) => {
           priority
         />
       </Link>
-      <Link href={link} target="_blank" className="hover:underline underline-offset-2">
+      <Link href={link} className="hover:underline underline-offset-2">
         <h2 className="capitalize text-2xl font-bold mt-4 my-2 xs:text-lg">{title}</h2>
       </Link>
       <p className="text-sm mb-2">{summary}</p>
@@ -112,49 +112,49 @@ function articles() {
             summary="Secure your connection between App Runner and Mongo DB Atlas in an AWS infra-structure using VPC safely."
             link="https://www.linkedin.com/pulse/cr%2525C3%2525A9er-une-connexion-s%2525C3%2525A9curis%2525C3%2525A9-entre-app-runner-et-mongo-jordan-kagmeni-dolxe/?trackingId=5qSj9Ce9RDuNwT7WQubxhA%3D%3D"
           />
-          <FeaturedArticle
-            imgUrl={surferLogo}
-            title="Surfer : Réseau Social Professionnel Axé sur les Intérêts"
-            time="4 min read"
-            summary="I will share you one of my great expirience on apps development. Good reading !😉"
-            link="/articles/surfer"
-          />
-          <FeaturedArticle
+          {/* <FeaturedArticle
             imgUrl={resilienceImage}
             title="Resilience: The Key to Success in Engineering and Beyond"
             time="4 min read"
             summary="Resilience is one of the most essential qualities for a developer who wants to be flexible. In this article, I'll talk about it in a little more detail and show you how it helped me overcome my challenges."
             link="/articles/resilience"
-          />
+          /> */}
           <FeaturedArticle
+            imgUrl={surferLogo}
+            title="Surfer : The professional social network based on your topics of interest for passionate people."
+            time="4 min read"
+            summary="I will share you one of my great expirience on apps development. Good reading !😉"
+            link="/articles/surfer"
+          />
+          {/* <FeaturedArticle
             imgUrl={leadershipImage}
             title="Leadership: Inspiring and Guiding towards Excellence"
             time="4 min read"
             summary="Leadership is a remarkable quality for both developers and managers. But how does it make you stand out from the crowd? I share my experience with you in this article."
             link="/articles/leadership"
-          />
-          <FeaturedArticle
+          /> */}
+          {/* <FeaturedArticle
             imgUrl={perfectionnisteImage}
             title="Perfectionnisme : viser toujours plus haut... mais à quel prix ?"
             time="6 min read"
             summary="Perfectionism is a controversial attribute. Sometimes identified as a quality, a flaw or both, it's an adjective that characterizes me a lot."
             link="/articles/perfectionnist"
-          />
-          <FeaturedArticle
+          /> */}
+          {/* <FeaturedArticle
             imgUrl={optimisationbd}
             title="Optimisation de la Base de Données et Migration vers une Architecture de Microservices pour Azatys"
             time="4 min read"
             summary="Take a look on my realisation to optimize infrastructure process in SAAS Application."
             link="/articles/optimisationBD"
-          />
-          <FeaturedArticle
+          /> */}
+          {/* <FeaturedArticle
             imgUrl={roleOfTechnology}
             title="The essential role of technology consulting in modern software engineering"
             time="3 min read"
             summary="The software engineering industry is evolving at a breathtaking pace, with new technologies, tools and services constantly emerging. In this ever-changing context, the skill
         of consulting on technologies, tools and services is becoming crucial for software engineering professionals."
             link="/articles/roleTech"
-          />
+          /> */}
         </ul>
         {/* <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">All Articles</h2>
         <ul>

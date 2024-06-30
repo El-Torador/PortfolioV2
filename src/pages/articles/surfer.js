@@ -38,7 +38,7 @@ export default function Article() {
           </p>
           <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Présentation et Définition du Projet</h2>
           <p>
-            <a className="hover:underline" href="https://surfer-ekk9l4quu-toradors-projects.vercel.app" target="_blank">Surfer</a> est un réseau social professionnel novateur, centré sur les centres d&apos;intérêt des utilisateurs. Son objectif est de créer des connexions authentiques entre professionnels, chercheurs, entrepreneurs et passionnés grâce à un système de recommandations basé sur des algorithmes sophistiqués. L&apos;idée est née de l&apos;observation que les étudiants de l&apos;ESIEA ont des centres d&apos;intérêt variés et parfois communs. Cela représente une opportunité unique de fédérer ces passions et de renforcer les liens entre les deux écoles du Groupe ESIEA.
+            <a className="hover:underline" href="https://surfer-omega.vercel.app" target="_blank">Surfer</a> est un réseau social professionnel novateur, centré sur les centres d&apos;intérêt des utilisateurs. Son objectif est de créer des connexions authentiques entre professionnels, chercheurs, entrepreneurs et passionnés grâce à un système de recommandations basé sur des algorithmes sophistiqués. L&apos;idée est née de l&apos;observation que les étudiants de l&apos;ESIEA ont des centres d&apos;intérêt variés et parfois communs. Cela représente une opportunité unique de fédérer ces passions et de renforcer les liens entre les deux écoles du Groupe ESIEA.
           </p>
           <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">L&apos;équipe 🤔</h2>
           <div>

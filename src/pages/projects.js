@@ -110,7 +110,7 @@ function projects() {
               title="Surfer"
               type="Featured Project"
               summary="Professional social network to publish articles based on interests, to follow people, to create Spaces Topics around a community."
-              link="https://surfer-ekk9l4quu-toradors-projects.vercel.app"
+              link="https://surfer-omega.vercel.app"
               github="https://gitlab.com/Torador/surfer"
               skills={["NextJS", "RecoilJS", "AdonisJS", "TypeScript", "PostgreSQL", "SSE", "TailwindCSS", "Machine Learning", "CI/CD", "Docker", "Scrum Methodology", "Dark Mode", "Leadership"]}
             />

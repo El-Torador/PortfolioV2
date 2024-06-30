@@ -47,7 +47,7 @@ export default function Article() {
             </p>
             <ol className="list-decimal">
               <li>
-                Moi-même, en tant que Lead Technique, responsable de la planification, du développement et du soutien des membres de l'équipe.
+                Moi-même, en tant que Lead Technique, responsable de la planification, du développement et du soutien des membres de l&apos;équipe.
               </li>
               <br />
               <li>

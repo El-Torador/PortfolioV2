@@ -10,7 +10,7 @@ import vpcMongoArticle from "../../public/images/articles/article1.jpeg";
 import roleOfTechnology from "../../public/images/articles/article2.jpg";
 import resilienceImage from "../../public/images/articles/resilience.png";
 import leadershipImage from "../../public/images/articles/leadership.webp";
-import perfectionnisteImage from "../../public/images/articles/perfectionniste.webp";
+import vui from "../../public/images/articles/vui.png";
 import optimisationbd from "../../public/images/articles/optimisationbd.png";
 import surferLogo from "../../public/images/articles/surfer.png";
 
@@ -120,6 +120,13 @@ function articles() {
             link="/articles/resilience"
           /> */}
           <FeaturedArticle
+            imgUrl={vui}
+            title="The Voice: A Technologically Disruptive Interface"
+            time="6 min read"
+            summary="Discover the voice interface and its impact on the future of technology."
+            link="/articles/vui"
+          />
+          <FeaturedArticle
             imgUrl={surferLogo}
             title="Surfer : The professional social network based on your topics of interest for passionate people."
             time="4 min read"
@@ -132,13 +139,6 @@ function articles() {
             time="4 min read"
             summary="Leadership is a remarkable quality for both developers and managers. But how does it make you stand out from the crowd? I share my experience with you in this article."
             link="/articles/leadership"
-          /> */}
-          {/* <FeaturedArticle
-            imgUrl={perfectionnisteImage}
-            title="Perfectionnisme : viser toujours plus haut... mais à quel prix ?"
-            time="6 min read"
-            summary="Perfectionism is a controversial attribute. Sometimes identified as a quality, a flaw or both, it's an adjective that characterizes me a lot."
-            link="/articles/perfectionnist"
           /> */}
           {/* <FeaturedArticle
             imgUrl={optimisationbd}

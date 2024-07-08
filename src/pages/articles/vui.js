@@ -123,9 +123,9 @@ export default function Article() {
             V. Comment ça m'a été utile professionnellement ? 👨‍💻
           </h2>
           <p>
-            Lors de mon dernier contrat d'apprentissage, j'ai pu mettre en application ces compétences couplé à l'IA dans le CRM de l'entreprise. <br />
+            Lors de mon dernier contrat d'apprentissage, j'ai pu mettre en application ces compétences couplées à l'IA dans le CRM de l'entreprise. <br />
 
-            En effet, j'ai mis en place un système de relance intelligente qui automatiquement relancera les clients sélectionnés qui n'ont pas répondu au devis envoyé par un commercial après 7 jours. <br /> Lorsqu'on effectue une relance, nous examinerons tout d'abord la conversation que le commercial a eue avec ce client. Ensuite, nous utiliserons la voix du commercial pour donner l'impression au client que c'est bien lui qui l'appelle. Si le client ne répond pas, nous lui laisserons un message sur son répondeur et lui enverrons un courriel de relance à son adresse e-mail. <br /> Grâce à l'IA (Generative Voice AI) et la voix via la Voice User Interface (VUI), tout cela est réalisable.
+            En effet, j'ai mis en place un système de <b>relance intelligente</b> qui automatiquement relancera les clients sélectionnés qui n'ont pas répondu au devis envoyé par un commercial après 7 jours. <br /> Lorsqu'on effectue une relance, j 'examine tout d'abord la conversation que le commercial a eue avec ce client. Ensuite, j'utilise la voix du commercial pour donner l'impression au client que c'est bien lui qui l'appelle. Si le client ne répond pas, je lui laisse un message sur son répondeur et lui envoi un courriel de relance à son adresse e-mail. <br /> Grâce à l'IA (Generative Voice AI) et la voix via la Voice User Interface (VUI), tout cela est réalisable.
 
             Grâce à cette fonctionnalité, le taux de conversion des devis en contrat a été considérablement augmenté de 30%, ce qui a permis à l'entreprise d'atteindre un bénéfice de 1 million d'euros en seulement 6 mois. J'ai dû la mettre en place pendant environ 1 mois, sous la coordination de mon maître d'apprentissage.
           </p>

@@ -23,12 +23,12 @@ function SoftSkills() {
       <SoftSkill title="Leadership" x="12vw" y="0vw" href="/articles/leadership" />
       <SoftSkill title="Team Work" x="-14vw" y="2vw" />
       <SoftSkill title="Rigourosity" x="10vw" y="6vw" />
-      <SoftSkill title="Stand-alone" x="0vw" y="10vw" />
+      <SoftSkill title="Stand-alone" x="0vw" y="10vw" href="/articles/autonomy" />
       <SoftSkill title="Organisation" x="-10vw" y="8vw" />
       <SoftSkill title="Perfectionist" x="4vw" y="-8vw" href="/articles/perfectionnism" />
       <SoftSkill title="Analysis Skill" x="15vw" y="-5vw" />
-      <SoftSkill title="Creativity" x="-14vw" y="-4vw" />
-      <SoftSkill title="Adaptability" x="-10vw" y="-10vw" />
+      <SoftSkill title="Creativity" x="-14vw" y="-4vw" href="/articles/autonomy" />
+      <SoftSkill title="Adaptability" x="-10vw" y="-10vw" href="/articles/autonomy" />
     </section>
   </>;
 }

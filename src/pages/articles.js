@@ -6,6 +6,7 @@ import { motion, useMotionValue } from "framer-motion";
 import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import TransitionEffect from "@/components/TransitionEffect";
+import Tag from "@/components/tag";
 import vpcMongoArticle from "../../public/images/articles/article1.jpeg";
 import tdd from "../../public/images/articles/tdd.png";
 import reactImage from "../../public/images/articles/react.webp";
@@ -13,7 +14,8 @@ import vui from "../../public/images/articles/vui.png";
 import surferLogo from "../../public/images/articles/surfer.png";
 import leadershipImage from "../../public/images/articles/leadership.webp";
 import perfectionnism from "../../public/images/articles/perfectionniste.webp";
-import Tag from "@/components/tag";
+import autonomyImage from "../../public/images/articles/autonomy.jpg";
+import hgImage from "../../public/images/articles/hg.jpeg"
 
 
 const FramerImage = motion(Image);
@@ -165,6 +167,22 @@ function articles() {
             summary="Discover the impact of perfectionism on your personal and professional life."
             link="/articles/perfectionnism"
             type="Transverse"
+          />
+          <FeaturedArticle
+            imgUrl={autonomyImage}
+            title="Automony: A trap or an advantage?"
+            time="4 min read"
+            summary="Autonomy is a quality that is highly sought after in the professional world. But is it really an advantage? Discover it in this article."
+            link="/articles/autonomy"
+            type="Transverse"
+          />
+          <FeaturedArticle
+            imgUrl={hgImage}
+            title="Health Genius: Expansion at the heart of Covid 19"
+            time="4 min read"
+            summary="Discover the impact of Covid 19 on the Health Genius platform."
+            link="/articles/heathGenius"
+            type="Réalisation"
           />
         </ul>
         {/* <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">All Articles</h2>

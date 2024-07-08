@@ -1,8 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Skill = ({ title, x, y, inertie = false }) => {
-  return <motion.div
+const Skill = ({ title, x, y, href = "#", inertie = false }) => {
+  return <motion.a
+    href={href}
     title="Web & Mobile Development"
     className={`skill ${inertie ? 'p-8' : 'py-3 px-6'}
      `}
@@ -12,7 +13,7 @@ const Skill = ({ title, x, y, inertie = false }) => {
     viewport={{ once: true }}
   >
     {title}
-  </motion.div>
+  </motion.a>
 }
 
 function Skills() {
@@ -23,7 +24,7 @@ function Skills() {
       <Skill title="HTML" x="9vw" y="0vw" />
       <Skill title="CSS" x="-8vw" y="2vw" />
       <Skill title="JS/TS" x="10vw" y="6vw" />
-      <Skill title="React" x="0vw" y="10vw" />
+      <Skill title="React" x="0vw" y="10vw" href="/articles/reactJourney" />
       <Skill title="Redux" x="-10vw" y="8vw" />
       <Skill title="TailwindCSS" x="4vw" y="-8vw" />
       <Skill title="UX/UI" x="15vw" y="-3vw" />

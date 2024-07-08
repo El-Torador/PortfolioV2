@@ -14,6 +14,7 @@ import SurferImg from "../../public/images/projects/Surfer-light.png";
 import SurferImgDark from "../../public/images/projects/Surfer-dark.png";
 import communityProject from "../../public/images/projects/community.png";
 import TysDataImg from "../../public/images/projects/TysData.png";
+import chatbot from "../../public/images/projects/chatbot.png";
 import useTheme from "@/hooks/useTheme";
 
 const FramerImage = motion(Image);
@@ -137,6 +138,18 @@ function projects() {
               github="https://gitlab.esiea.fr/kagmeni/intech-javascript-kagmeni-laoudi"
               summary="Minesweeper Games consisting of 03 levels of difficulty and timed by player game. The player can pause and resume the game later."
               skills={["Algorithms", "JavaScript", "HTML", "CSS", "Dark Mode", "Responsive Design", "Animation"]}
+            />
+          </div>
+          <div className="col-span-6 sm:col-span-12">
+            <Project
+              imgUrl={chatbot}
+              darkImgUrl={chatbot}
+              title="ChatBot"
+              type="School Project"
+              link="https://chatbot-io-coral.vercel.app"
+              github="https://github.com/El-Torador/CHATBOT-IO"
+              summary="ChatBots that can answer questions about the weather, the meaning word and others."
+              skills={["Clean Architecture", "TypeScript", "HTML", "TailwindCSS", "Web Component", "API"]}
             />
           </div>
 

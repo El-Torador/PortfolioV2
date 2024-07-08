@@ -7,13 +7,13 @@ import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import TransitionEffect from "@/components/TransitionEffect";
 import vpcMongoArticle from "../../public/images/articles/article1.jpeg";
-import roleOfTechnology from "../../public/images/articles/article2.jpg";
-import resilienceImage from "../../public/images/articles/resilience.png";
-import leadershipImage from "../../public/images/articles/leadership.webp";
+import tdd from "../../public/images/articles/tdd.png";
+import reactImage from "../../public/images/articles/react.webp";
 import vui from "../../public/images/articles/vui.png";
-import optimisationbd from "../../public/images/articles/optimisationbd.png";
 import surferLogo from "../../public/images/articles/surfer.png";
-
+import leadershipImage from "../../public/images/articles/leadership.webp";
+import perfectionnism from "../../public/images/articles/perfectionniste.webp";
+import Tag from "@/components/tag";
 
 
 const FramerImage = motion(Image);
@@ -70,7 +70,7 @@ const Article = ({ imgUrl, title, date, link }) => {
   </motion.li>
 }
 
-const FeaturedArticle = ({ imgUrl, title, time, summary, link }) => {
+const FeaturedArticle = ({ imgUrl, title, time, summary, link, type = "Compétences" }) => {
   return (
     <li className="col-span-1 w-full p-4 bg-light dark:bg-dark border border-dark dark:border-light border-solid rounded-2xl relative">
       <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light" />
@@ -78,7 +78,7 @@ const FeaturedArticle = ({ imgUrl, title, time, summary, link }) => {
         <FramerImage
           src={imgUrl}
           alt={title}
-          className="w-full h-auto"
+          className="w-full max-h-[300px]"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
@@ -89,7 +89,12 @@ const FeaturedArticle = ({ imgUrl, title, time, summary, link }) => {
         <h2 className="capitalize text-2xl font-bold mt-4 my-2 xs:text-lg">{title}</h2>
       </Link>
       <p className="text-sm mb-2">{summary}</p>
-      <span className="text-primary dark:text-primaryDark font-semibold">{time}</span>
+      <div className="flex items-center justify-between">
+        <span className="text-primary dark:text-primaryDark font-semibold">{time}</span>
+        <ul>
+          <Tag tag={type} />
+        </ul>
+      </div>
     </li>
   )
 }
@@ -106,25 +111,36 @@ function articles() {
         <AnimatedText text="Words Can Change the World!" className="page-title" />
         <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
           <FeaturedArticle
-            imgUrl={vpcMongoArticle}
-            title="Create a secure connection between App Runner and Mongo DB Atlas in an AWS infra-structure using VPC (Virtual Private Cloud)"
-            time="5 min read"
-            summary="Secure your connection between App Runner and Mongo DB Atlas in an AWS infra-structure using VPC safely."
-            link="https://www.linkedin.com/pulse/cr%2525C3%2525A9er-une-connexion-s%2525C3%2525A9curis%2525C3%2525A9-entre-app-runner-et-mongo-jordan-kagmeni-dolxe/?trackingId=5qSj9Ce9RDuNwT7WQubxhA%3D%3D"
-          />
-          {/* <FeaturedArticle
-            imgUrl={resilienceImage}
-            title="Resilience: The Key to Success in Engineering and Beyond"
+            imgUrl={reactImage}
+            title="How I discovered React JS"
             time="4 min read"
-            summary="Resilience is one of the most essential qualities for a developer who wants to be flexible. In this article, I'll talk about it in a little more detail and show you how it helped me overcome my challenges."
-            link="/articles/resilience"
-          /> */}
+            summary="Discover how I discovered React JS and how it changed my career vision."
+            link="/articles/reactJourney"
+            type="Réalisation"
+          />
+          <FeaturedArticle
+            imgUrl={vpcMongoArticle}
+            title="Create a secure connection between App Runner and Mongo DB Atlas in an AWS infra-structure using VPC"
+            time="5 min read"
+            summary="Discover how to create a secure connection with Mongo DB Atlas in an AWS infra-structure using VPC."
+            link="https://www.linkedin.com/pulse/cr%2525C3%2525A9er-une-connexion-s%2525C3%2525A9curis%2525C3%2525A9-entre-app-runner-et-mongo-jordan-kagmeni-dolxe/?trackingId=5qSj9Ce9RDuNwT7WQubxhA%3D%3D"
+            type="Compétences"
+          />
           <FeaturedArticle
             imgUrl={vui}
             title="The Voice: A Technologically Disruptive Interface"
             time="6 min read"
             summary="Discover the voice interface and its impact on the future of technology."
             link="/articles/vui"
+            type="Compétences"
+          />
+          <FeaturedArticle
+            imgUrl={tdd}
+            title="Thinking 'Behavior' and 'Feedback' through TDD"
+            time="3 min read"
+            summary="Gain efficiency and quality through Test Driven Development."
+            link="/articles/tdd"
+            type="Compétences"
           />
           <FeaturedArticle
             imgUrl={surferLogo}
@@ -132,29 +148,24 @@ function articles() {
             time="4 min read"
             summary="I will share you one of my great expirience on apps development. Good reading !😉"
             link="/articles/surfer"
+            type="Réalisation"
           />
-          {/* <FeaturedArticle
+          <FeaturedArticle
             imgUrl={leadershipImage}
-            title="Leadership: Inspiring and Guiding towards Excellence"
+            title="Leadership: A Remarkable Quality for Developers and Managers"
             time="4 min read"
-            summary="Leadership is a remarkable quality for both developers and managers. But how does it make you stand out from the crowd? I share my experience with you in this article."
+            summary="Discover the importance of leadership in the professional world."
             link="/articles/leadership"
-          /> */}
-          {/* <FeaturedArticle
-            imgUrl={optimisationbd}
-            title="Optimisation de la Base de Données et Migration vers une Architecture de Microservices pour Azatys"
+            type="Transverse"
+          />
+          <FeaturedArticle
+            imgUrl={perfectionnism}
+            title="Perfectionnism: A Quality or a Defect?"
             time="4 min read"
-            summary="Take a look on my realisation to optimize infrastructure process in SAAS Application."
-            link="/articles/optimisationBD"
-          /> */}
-          {/* <FeaturedArticle
-            imgUrl={roleOfTechnology}
-            title="The essential role of technology consulting in modern software engineering"
-            time="3 min read"
-            summary="The software engineering industry is evolving at a breathtaking pace, with new technologies, tools and services constantly emerging. In this ever-changing context, the skill
-        of consulting on technologies, tools and services is becoming crucial for software engineering professionals."
-            link="/articles/roleTech"
-          /> */}
+            summary="Discover the impact of perfectionism on your personal and professional life."
+            link="/articles/perfectionnism"
+            type="Transverse"
+          />
         </ul>
         {/* <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">All Articles</h2>
         <ul>

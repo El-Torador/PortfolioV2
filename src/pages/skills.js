@@ -15,7 +15,7 @@ function about() {
     <TransitionEffect />
     <main className="flex w-full flex-col items-center justify-center dark:text-light">
       <Layout className="pt-16">
-        <AnimatedText text="Skills Make Wold Better!" className="page-title" />
+        <AnimatedText text="Skills Make World Better!" className="page-title" />
 
         <Skills />
         <SoftSkills />

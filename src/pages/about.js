@@ -76,9 +76,6 @@ function about() {
             </div>
           </section>
         </div>
-
-        <Skills />
-        <SoftSkills />
         <div className="grid xl:grid-cols-1 grid-cols-2">
           <Experience />
           <Education />

@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const SoftSkill = ({ title, x, y, href = "#", inertie = false, }) => {
-  return <motion.a
-    href={href}
+const SoftSkill = ({ title, x, y, inertie = false, }) => {
+  return <motion.div
+    // href={href}
     className={`skill ${inertie ? 'p-8' : 'py-3 px-6'}
      `}
     whileHover={{ scale: 1.05 }}
@@ -12,7 +12,7 @@ const SoftSkill = ({ title, x, y, href = "#", inertie = false, }) => {
     viewport={{ once: true }}
   >
     {title}
-  </motion.a>
+  </motion.div>
 }
 
 function SoftSkills() {

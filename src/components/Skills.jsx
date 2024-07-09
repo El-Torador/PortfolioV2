@@ -2,8 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const Skill = ({ title, x, y, href = "#", inertie = false }) => {
-  return <motion.a
-    href={href}
+  return <motion.div
+    // href={href}
     title="Web & Mobile Development"
     className={`skill ${inertie ? 'p-8' : 'py-3 px-6'}
      `}
@@ -13,7 +13,7 @@ const Skill = ({ title, x, y, href = "#", inertie = false }) => {
     viewport={{ once: true }}
   >
     {title}
-  </motion.a>
+  </motion.div>
 }
 
 function Skills() {

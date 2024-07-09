@@ -52,7 +52,7 @@ export default function Article() {
             </p>
             <h3 className="my-8 text-2xl font-bold tracking-tight dark:text-light">A. Responsabilités d'un leader</h3>
             <p>
-              Au cœur des défis du leadership se trouvent les responsabilités cruciales du leader. Comme souligné dans l'article <a href="https://www.semanticscholar.org/paper/Professional-Identity-as-an-Analytic-Lens-for-in-of-Resnick/56defc2c8c1aa9e6f8ccefa217b664bb576d1c11" target="_blank" className="italic underline">Le Yang</a>, la complexité de la notion de leadership implique des interprétations variées et des dilemmes éthiques auxquels les leaders peuvent être confrontés. Ainsi, le développement de nouvelles identités professionnelles par les principaux, tel que décrit dans <a href="https://www.semanticscholar.org/paper/Professional-Identity-as-an-Analytic-Lens-for-in-of-Resnick/56defc2c8c1aa9e6f8ccefa217b664bb576d1c11" target="_blank" className="italic underline">A. Resnick</a>, témoigne de l'importance de comprendre les attentes changeantes en matière de pratiques et de compétences. Les responsabilités d'un leader vont au-delà de la simple conformité, exigeant une évolution des conceptions d'apprentissage des élèves et des enseignants. En ce sens, les défis du leadership résident dans la capacité à s'adapter aux exigences évolutives du rôle, tout en maintenant une vision éthique et efficace de la direction.
+              Au cœur des défis du leadership se trouvent les responsabilités capitales du leader. Comme souligné dans l'article <a href="https://www.semanticscholar.org/paper/Professional-Identity-as-an-Analytic-Lens-for-in-of-Resnick/56defc2c8c1aa9e6f8ccefa217b664bb576d1c11" target="_blank" className="italic underline">Le Yang</a>, la complexité de la notion de leadership implique des interprétations variées et des dilemmes éthiques auxquels les leaders peuvent être confrontés. Ainsi, le développement de nouvelles identités professionnelles par les principaux, tel que décrit dans <a href="https://www.semanticscholar.org/paper/Professional-Identity-as-an-Analytic-Lens-for-in-of-Resnick/56defc2c8c1aa9e6f8ccefa217b664bb576d1c11" target="_blank" className="italic underline">A. Resnick</a>, témoigne de l'importance de comprendre les attentes changeantes en matière de pratiques et de compétences. Les responsabilités d'un leader vont au-delà de la simple conformité, exigeant une évolution des conceptions d'apprentissage des élèves et des enseignants. En ce sens, les défis du leadership résident dans la capacité à s'adapter aux exigences évolutives du rôle, tout en maintenant une vision éthique et efficace de la direction.
             </p>
           </div>
           <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">III. Qualités d'un leader efficace</h2>
@@ -81,7 +81,7 @@ export default function Article() {
               </li>
               <br />
               <li>
-                <strong>GMC Assurance :</strong> En tant que lead developer, j'ai dirigé une équipe de cinq personnes pour la mise en œuvre d'interfaces de suivi des certificats d'assurance. Ma capacité à répartir les tâches efficacement, à motiver l'équipe et à assurer une coordination sans faille a été cruciale pour le succès du projet.
+                <strong>GMC Assurance :</strong> En tant que lead developer, j'ai dirigé une équipe de cinq personnes pour la mise en œuvre d'interfaces de suivi des certificats d'assurance. Ma capacité à répartir les tâches efficacement, à motiver l'équipe et à assurer une coordination sans faille a été essentiel pour le succès du projet.
               </li>
             </ol>
           </div>
@@ -92,7 +92,7 @@ export default function Article() {
             </p>
             <ul className="list-disc">
               <li>
-                <strong>Surfer :</strong> Dans le cadre de ce projet de plateforme sociale professionnelle, j'ai dirigé une équipe pour développer une solution robuste en utilisant NextJS et TypeScript. Mon rôle de leader a été crucial pour coordonner les efforts de l'équipe et garantir que nous restions alignés sur nos objectifs.
+                <strong>Surfer :</strong> Dans le cadre de ce projet de plateforme sociale professionnelle, j'ai dirigé une équipe pour développer une solution robuste en utilisant NextJS et TypeScript. Mon rôle de leader a été capital pour coordonner les efforts de l'équipe et garantir que nous restions alignés sur nos objectifs.
               </li>
               <br />
               <li>

@@ -16,6 +16,7 @@ import communityProject from "../../public/images/projects/community.png";
 import TysDataImg from "../../public/images/projects/TysData.png";
 import chatbot from "../../public/images/projects/chatbot.png";
 import useTheme from "@/hooks/useTheme";
+import { IconoirOpenNewWindow } from "@/components/OpenWindow";
 
 const FramerImage = motion(Image);
 
@@ -47,7 +48,7 @@ const FeaturedProject = ({ type, title, summary, imgUrl, darkImgUrl, link, githu
       <p className="my-2 font-medium sm:text-sm">{summary}</p>
       <div className="mt-2 flex items-center">
         <Link href={github} target="_blank" className="w-10"><GithubIcon /></Link>
-        <Link href={link} target="_blank" className="featured-btn">View Project</Link>
+        <Link href={link} target="_blank" className="featured-btn flex items-center">View Project &nbsp; <IconoirOpenNewWindow /></Link>
       </div>
       <ul className="flex flex-wrap mt-4 gap-2">
         {skills.map((tag, index) => <Tag key={index} tag={tag} />)}
@@ -84,7 +85,7 @@ const Project = ({ title, type, summary, imgUrl, darkImgUrl, link, github, skill
       <p className="my-2 font-medium">{summary}</p>
       <div className="mt-2 flex items-center">
         <Link href={github} target="_blank" className="w-10"><GithubIcon /></Link>
-        <Link href={link} target="_blank" className="project-btn">View</Link>
+        <Link href={link} target="_blank" className="project-btn flex items-center">View &nbsp; <IconoirOpenNewWindow /></Link>
       </div>
       <ul className="flex flex-wrap mt-4 gap-2">
         {skills.map((tag, index) => <Tag key={index} tag={tag} />)}

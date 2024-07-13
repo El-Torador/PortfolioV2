@@ -98,14 +98,14 @@ export default function Article() {
               </li>
             </ul>
           </div>
-          <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Leadership et Vie Personnelle 🔑</h2>
+          {/* <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Leadership et Vie Personnelle 🔑</h2>
           <p>
-            Le leadership ne se limite pas au cadre professionnel ; il se manifeste également dans la vie personnelle en organisant des activités communautaires ou en prenant des initiatives dans des projets personnels. Je m'efforce de diriger par l'exemple et d'inspirer ceux qui m'entourent au travers des projets collaboratifs comme la planification d'événements ou la participation à des clubs. J'ai souvent pris des rôles de coordination et de direction pour assurer le succès de nos efforts communs.
+            Le leadership se manifeste également dans la vie personnelle en organisant des activités communautaires ou en prenant des initiatives dans des projets personnels. Je m'efforce de diriger par l'exemple et d'inspirer ceux qui m'entourent au travers des projets collaboratifs comme la planification d'événements ou la collaboration à des projets. J'ai souvent pris des rôles de coordination pour assurer le succès de nos efforts communs notamment dans sur Lucid qui est un ORM (Object Relationnal Mapping) fait pour le framework Adonis.
           </p>
           <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Les Défis du Leadership 😼</h2>
           <p>
             Être un leader efficace comporte des défis. Il faut constamment apprendre à équilibrer les attentes, à gérer les conflits et à motiver les membres de l'équipe. Un bon leader doit aussi être adaptable, capable de s'ajuster aux changements et de guider son équipe à travers les périodes d'incertitude.
-          </p>
+          </p> */}
         </div>
       </article>
     </>

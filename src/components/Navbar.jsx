@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
-import { LinkedInIcon, GithubIcon, TwitterIcon, DribbbleIcon, PinterestIcon, SunIcon, MoonIcon } from "./Icons";
+import { LinkedInIcon, GithubIcon, TwitterIcon, DribbbleIcon, PinterestIcon, SunIcon, MoonIcon, GitLabIcon } from "./Icons";
 import useTheme from "@/hooks/useTheme";
 
 const CustomLink = ({ href, title, className = "" }) => {
@@ -114,6 +114,15 @@ function Navbar() {
           <GithubIcon />
         </motion.a>
         <motion.a
+          href="https://gitlab.com/Torador"
+          target="_blank"
+          className="w-6 mx-3 sm:mx-1"
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+        >
+          <GitLabIcon />
+        </motion.a>
+        <motion.a
           href="https://twitter.com/JordanKagmeni"
           target="_blank"
           className="w-6 mx-3"
@@ -122,7 +131,7 @@ function Navbar() {
         >
           <TwitterIcon />
         </motion.a>
-        <motion.a
+        {/* <motion.a
           href="https://www.pinterest.com/jkagmeni"
           target="_blank"
           className="w-6 mx-3"
@@ -139,7 +148,7 @@ function Navbar() {
           whileTap={{ scale: 0.9 }}
         >
           <DribbbleIcon />
-        </motion.a>
+        </motion.a> */}
         <button
           onClick={toggleTheme}
           className="theme-btn"
@@ -192,6 +201,15 @@ function Navbar() {
             <GithubIcon />
           </motion.a>
           <motion.a
+            href="https://gitlab.com/Torador"
+            target="_blank"
+            className="w-6 mx-3 sm:mx-1"
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <GitLabIcon />
+          </motion.a>
+          <motion.a
             href="https://twitter.com/JordanKagmeni"
             target="_blank"
             className="w-6 mx-3 sm:mx-1"
@@ -200,7 +218,7 @@ function Navbar() {
           >
             <TwitterIcon />
           </motion.a>
-          <motion.a
+          {/* <motion.a
             href="https://www.pinterest.com/jkagmeni"
             target="_blank"
             className="w-6 mx-3 sm:mx-1"
@@ -217,7 +235,7 @@ function Navbar() {
             whileTap={{ scale: 0.9 }}
           >
             <DribbbleIcon />
-          </motion.a>
+          </motion.a> */}
           <button
             onClick={toggleTheme}
             className="theme-btn bg-light dark:bg-dark"

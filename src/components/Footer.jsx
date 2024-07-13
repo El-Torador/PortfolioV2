@@ -10,7 +10,7 @@ function Footer() {
         Build with <span className="text-primary text-2xl px-1 dark:text-primaryDark">&#9825;</span>
         by &nbsp; <span className="underline underline-offset-2">JK</span>
       </div>
-      <Link href="https://nextjs.org" className="underline underline-offset-2">By with Next.js and TypeScript</Link>
+      <Link href="https://nextjs.org" className="underline underline-offset-2">Made with Next.js and TypeScript</Link>
     </Layout>
   </footer>;
 }

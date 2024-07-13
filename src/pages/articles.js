@@ -131,7 +131,7 @@ function articles() {
           <FeaturedArticle
             imgUrl={vui}
             title="The Voice: A Technologically Disruptive Interface"
-            time="6 min read"
+            time="3 min read"
             summary="Discover the voice interface and its impact on the future of technology."
             link="/articles/vui"
             type="Compétences"

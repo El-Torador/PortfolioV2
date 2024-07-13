@@ -83,50 +83,28 @@ export default function Article() {
             <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Enjeux
               📈</h2>
             <p>
-              {/* À Rédiger */}
+              Pour permettre une inauguration des CSPP dans les temps, il était capital de respecter les delais pour la première version de l'application. Elle se doit de répondre au cahier de charges établi par le ministère de la santé et doit être sécurisée pour garantir la confidentialité des données des patients. Cette application allait être utilisé dans plus de 1000 centres de santé à travers le Cameroun et devait être scalable pour pouvoir supporter le nombre de patients et le traffic sur l'application. <br /> Une fois l'application livrée, il était capital de former les professionnels de santé à l'utilisation de l'application pour garantir son adoption par la même occassion receuillir des feedbacks utilisateurs afin de les remonter via l'application au ministère.
             </p>
             <br />
-            {/* <br />
-            <ol className="list-disc">
-              <li>
-                <strong>Première itération : </strong> Création et authentification des comptes utilisateurs, intégration de l&apos;authentification Google, modélisation et création de la base de données.
-              </li>
-              <li>
-                <strong>Deuxième itération :</strong> Gestion des publications et interactions, permettant aux utilisateurs de suivre d&apos;autres membres et de noter les posts.
-              </li>
-              <li>
-                <strong>Troisième itération  :</strong> Implémentation de la messagerie en temps réel, notifications, et couverture de code à 80%.
-              </li>
-              <li>
-                <strong>Quatrième itération  :</strong> Sécurité des données, recommandations de contacts et de posts, avec un objectif de couverture de code maintenu à 80%.
-              </li>
-            </ol> */}
             <br /><br />
           </div>
           <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Risques et Difficultés 😢</h2>
           <p>
-            {/* À Rédiger */}
+            Durant cette mission, j'ai fait face à quelques difficultés. Notamment lors de la réalisation de la fonctionnalité de télé-consultation qui marchait en environnement deveveloppement mais lorsqu'on passait en test ou en prod, il ne marchait pas correctement ce qui a plus pris de temps que prévu. J'ai donc commencé à stresser car le temps était compté et c'etait une fonctionnalité qui serait à la une lors de la présentation de l'application donc il se devait de marcher correctement. <br /> Après deux nuits blanches, et deux semaines dessus, j'ai reussi à faire fonctionner en production. Ce fut un gros soulagement pour moi.
           </p>
           <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Objectifs Poursuivis</h2>
           <p>
-            {/* À Rédiger */}
-          </p>
-          <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Étapes Clés 🔑</h2>
-          <p>
-            {/* À Rédiger */}
+            À la suite de celà, je devais fournir une documentation technique du projet dans les livrables comme mentionné dans le contrat et intervenir gratuitement en cas de maintenance corrective sur l'application à condition que l'anomalie à corriger soit directement liée à une spécifications dans le cahier des charges.
           </p>
           <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Résultats 😼</h2>
           <br />
           <p>
-            {/* À Rédiger */}
-          </p>
-          <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Lendemain du Projet</h2>
-          <p>
-            {/* À Rédiger */}
+            L'application a finalement été mis en production et a été utilisé pendant <b>02 ans</b> avec plus de <b>50000 utilisateurs</b> actifs chaque jours dans plus de <b>1000 CSPP</b>.
+            Son utilisation a été interrompu suite à la fermeture des CSPP sous mot du Président de la République après que la Covid 19 soit plus d'actualité.
           </p>
           <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Mon Regard Critique 🤓</h2>
           <p>
-            {/* À Rédiger */}
+            Ce projet m'a permis de savoir gérer mon stress en cas pression et de ne pas sucombé et de persévérer lorsqu'on ne trouve pas de solution. Globalement j'ai été satisfait de mon travail car j'ai su livré une application qui repondait à un besoin bien qu'elle n'était pas compètement aboutie.
           </p>
         </div>
       </article>

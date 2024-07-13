@@ -67,30 +67,30 @@ export default function Article() {
           <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Mon Parcours en Leadership 👷‍♂️</h2>
           <div>
             <p>
-              Mes expériences professionnelles m'ont permis de développer et de perfectionner mes compétences en leadership : <br /><br />
+              Mon parcours est parsemé de trace de leadership manifesté par mes actions et qui ont su impacter mon environnement. <br /><br />
             </p>
             <ol className="list-decimal">
               <li>
-                <strong>LesBonsArtisans :</strong> En tant qu'ingénieur full-stack, j'ai souvent été amené à prendre des initiatives pour optimiser les processus et implémenter de nouvelles technologies. J'ai guidé mes collègues à travers des migrations complexes et des mises à jour de systèmes, assurant une communication claire et un soutien constant.
+                <strong>LesBonsArtisans :</strong> Je faisais partie d'une équipe de 5 dévéloppeurs dont 2 CDI et 3 Alternants (moi y compris). j'ai su gagner la confiance de mes collègues au fil des missions réalisées et en les aidant à résoudre les problèmes qu'ils rencontraient dans leur taches communes. Je mettais aussi beaucoup d'humour dans notre bureau pour une ambiance de travail conviviale.
               </li>
               <br />
               <li>
-                <strong>Azatys :</strong> Pendant ma mission freelance, j'ai non seulement contribué techniquement mais aussi apporté des solutions stratégiques pour la migration vers une architecture de microservices. Mon rôle a souvent consisté à orienter et à encadrer mes collègues pour qu'ils puissent s'approprier les nouvelles technologies et méthodologies.
+                <strong>Azatys :</strong> L'autonomie que j'avais chez Azatys m'a permis de prendre des initiatives sur les projets de l'entreprise en gérant une équipe de 2 freelances pour le lancement de la plateforme Azatys. J'ai su faire confiance à mes collaborateurs en leur laissant exprimer leur potentiel dans un cadre de travail sain et productif.
               </li>
               <br />
               <li>
-                <strong>GMC Assurance :</strong> En tant que lead developer, j'ai dirigé une équipe de cinq personnes pour la mise en œuvre d'interfaces de suivi des certificats d'assurance. Ma capacité à répartir les tâches efficacement, à motiver l'équipe et à assurer une coordination sans faille a été essentiel pour le succès du projet.
+                <strong>GMC Assurance :</strong> Ma première expérience en tant que Lead Dev où je devais gérer une équipe de 5 développeurs juniors. L'encadrement de ces derniers a favorisé leur montée en compétence et l'aboutissement de leur objectifs personnels. Cette expérience m'a permis de progresser notamment sur la communication, la planification des objectifs et la résolution des confilts.
               </li>
             </ol>
           </div>
           <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Projets et Leadership 📄</h2>
           <div>
             <p>
-              Les projets que j'ai réalisés reflètent mon approche du leadership : <br />
+              Les projets que j'ai réalisés reflètent mon approche du leadership : <br /><br />
             </p>
             <ul className="list-disc">
               <li>
-                <strong>Surfer :</strong> Dans le cadre de ce projet de plateforme sociale professionnelle, j'ai dirigé une équipe pour développer une solution robuste en utilisant NextJS et TypeScript. Mon rôle de leader a été capital pour coordonner les efforts de l'équipe et garantir que nous restions alignés sur nos objectifs.
+                <strong>Surfer :</strong> L'un des projets les plus marquant en terme d'émotion pour moi et où j'ai fais beaucoup d'erreurs. Mon côté perfectionniste m'a poussé à vouloir tout faire soi-même et ne pas déléguer. Je me suis très vite ressaisis pour empêcher l'échec du projet et nous avions terminer en beauté. J'ai appris de mes erreurs et je n'ai jamais rejeter la faute à mes collègues mais j'ai pris la responsabilité de mes actes.
               </li>
               <br />
               <li>
@@ -100,7 +100,7 @@ export default function Article() {
           </div>
           <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Leadership et Vie Personnelle 🔑</h2>
           <p>
-            Le leadership ne se limite pas au cadre professionnel ; il se manifeste également dans la vie personnelle. Que ce soit en organisant des activités communautaires ou en prenant des initiatives dans des projets personnels, je m'efforce de diriger par l'exemple et d'inspirer ceux qui m'entourent. Par exemple, dans des projets collaboratifs comme la planification d'événements ou la participation à des clubs, j'ai souvent pris des rôles de coordination et de direction pour assurer le succès de nos efforts communs.
+            Le leadership ne se limite pas au cadre professionnel ; il se manifeste également dans la vie personnelle en organisant des activités communautaires ou en prenant des initiatives dans des projets personnels. Je m'efforce de diriger par l'exemple et d'inspirer ceux qui m'entourent au travers des projets collaboratifs comme la planification d'événements ou la participation à des clubs. J'ai souvent pris des rôles de coordination et de direction pour assurer le succès de nos efforts communs.
           </p>
           <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Les Défis du Leadership 😼</h2>
           <p>

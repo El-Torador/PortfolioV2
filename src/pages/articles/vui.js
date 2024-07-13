@@ -61,15 +61,15 @@ export default function Article() {
         <p>
           Lors de mon dernier contrat d'apprentissage, j'ai pu mettre en application ces compétences couplées à l'IA dans le CRM de l'entreprise. <br />
 
-          En effet, j'ai mis en place un système de <b>Relance Intelligente</b> qui automatiquement relancera les clients sélectionnés qui n'ont pas répondu au devis envoyé par un commercial après 7 jours. <br /><br /> Lorsqu'on effectue une relance, j 'examine tout d'abord la conversation que le commercial a eue avec ce client. Ensuite, j'utilise la voix du commercial pour donner l'impression au client que c'est bien lui qui l'appelle. Si le client ne répond pas, je lui laisse un message sur son répondeur et lui envoi un courriel de relance à son adresse e-mail. <br /> Grâce à l'IA <b>(Generative Voice AI)</b> et la voix via la <b>Voice User Interface (VUI)</b>, tout cela est réalisable. <br />
+          En effet, j'ai mis en place un système de <b>Relance Intelligente</b> qui automatiquement relancera les clients sélectionnés qui n'ont pas répondu au devis envoyé par un commercial après 7 jours. <br /><br /> Lorsqu'un utilisateur effectue une relance, j'examine tout d'abord la conversation que le commercial a eue avec ce client puis j'utilise la voix du commercial pour donner l'impression au client que c'est bien lui qui l'appelle. Si le client ne répond pas, je lui laisse un message sur son répondeur et lui envoi un courriel de relance à son adresse e-mail. <br /><br />
 
-          Grâce à cette fonctionnalité, le taux de conversion des devis en contrat a été considérablement augmenté de 30%, ce qui a permis à l'entreprise d'atteindre un bénéfice de 1 million d'euros en seulement 6 mois. J'ai dû la mettre en place pendant environ 1 mois, sous la coordination de mon maître d'apprentissage.
+          Cette fonctionnalité a permis de croitre le taux de conversion des devis en contrat de 30% ce qui a permis à l'entreprise d'atteindre un bénéfice de 1 million d'euros en seulement 6 mois. J'ai dû la mettre en place pendant environ 1 mois, sous la coordination de mon maître d'apprentissage.
         </p>
 
         <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">V. Perspectives</h2>
         <p>
           Je souhaite continuer d'explorer les possibilités illimités qu'offrent la voix et l'IA pour permettre de développer des logiciels qui vont résoudre des problèmes maintenant à l'image d'un humain. <br /><br />
-          L'avenue de la VUI va marqué une disruption technologique au point où nous allons redécouvrir les interfaces homme-machine et les interactions que nous avons avec les machines. Bien que nous avons déjà été préparé avec les prototypes comme Siri d'Apple ou Alexa d'Amazon, la VUI va nous permettre de repenser notre manière d'interagir avec les machines et de les rendre plus humaines.
+          L'avenue de la VUI va marquer une disruption technologique au point où nous allons redécouvrir les interfaces homme-machine et les interactions que nous avons avec les machines. Bien que nous avons déjà été préparé avec les prototypes comme Siri d'Apple ou Alexa d'Amazon, la VUI va nous permettre de repenser notre manière d'interagir avec les machines afin de les rendre plus humaines.
         </p>
         <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">References:</h2>
         <div>

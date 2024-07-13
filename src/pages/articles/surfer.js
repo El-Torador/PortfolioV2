@@ -158,7 +158,7 @@ export default function Article() {
           <p>
             Cette aventure m&apos;a permis de mieux me connaître et d&apos;affiner ma vision du leadership. J&apos;ai progressé techniquement et personnellement en prenant des responsabilités, en gérant le stress et en soutenant mon équipe. Les erreurs commises ont été des leçons précieuses qui m&apos;ont aidé à évoluer. Comme le dit le proverbe, <q>ce qui ne nous tue pas nous rend plus fort</q>. <br /> <br />
 
-            En somme, le projet Surfer a été une expérience inoubliable et formatrice, qui a non seulement enrichi mes compétences techniques et de leadership, mais aussi renforcé ma passion pour l&apos;entrepreneuriat et l&apos;innovation.
+            En somme, le projet Surfer a été une expérience inoubliable et formatrice, qui a non seulement enrichi mes compétences techniques et mon leadership, mais aussi renforcé ma passion pour l&apos;entrepreneuriat.
           </p>
         </div>
       </article>

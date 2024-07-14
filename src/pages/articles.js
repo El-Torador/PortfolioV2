@@ -118,7 +118,7 @@ function articles() {
             time="4 min read"
             summary="Discover how I discovered React JS and how it changed my career vision."
             link="/articles/reactJourney"
-            type="Réalisation"
+            type="Realization"
           />
           <FeaturedArticle
             imgUrl={vpcMongoArticle}
@@ -126,7 +126,7 @@ function articles() {
             time="5 min read"
             summary="Discover how to create a secure connection with Mongo DB Atlas in an AWS infra-structure using VPC."
             link="https://www.linkedin.com/pulse/cr%2525C3%2525A9er-une-connexion-s%2525C3%2525A9curis%2525C3%2525A9-entre-app-runner-et-mongo-jordan-kagmeni-dolxe/?trackingId=5qSj9Ce9RDuNwT7WQubxhA%3D%3D"
-            type="Compétences"
+            type="Skill"
           />
           <FeaturedArticle
             imgUrl={vui}
@@ -134,7 +134,7 @@ function articles() {
             time="3 min read"
             summary="Discover the voice interface and its impact on the future of technology."
             link="/articles/vui"
-            type="Compétences"
+            type="Skill"
           />
           <FeaturedArticle
             imgUrl={tdd}
@@ -142,7 +142,7 @@ function articles() {
             time="3 min read"
             summary="Gain efficiency and quality through Test Driven Development."
             link="/articles/tdd"
-            type="Compétences"
+            type="Skill"
           />
           <FeaturedArticle
             imgUrl={surferLogo}
@@ -150,7 +150,7 @@ function articles() {
             time="4 min read"
             summary="I will share you one of my great expirience on apps development. Good reading !😉"
             link="/articles/surfer"
-            type="Réalisation"
+            type="Realization"
           />
           <FeaturedArticle
             imgUrl={leadershipImage}
@@ -182,7 +182,7 @@ function articles() {
             time="4 min read"
             summary="Discover the impact of Covid 19 on the Health Genius platform."
             link="/articles/heathGenius"
-            type="Réalisation"
+            type="Realization"
           />
         </ul>
         {/* <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">All Articles</h2>

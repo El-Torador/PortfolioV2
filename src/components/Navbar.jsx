@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
-import { LinkedInIcon, GithubIcon, TwitterIcon, DribbbleIcon, PinterestIcon, SunIcon, MoonIcon, GitLabIcon } from "./Icons";
+import { LinkedInIcon, GithubIcon, TwitterIcon, SunIcon, MoonIcon, GitLabIcon } from "./Icons";
 import useTheme from "@/hooks/useTheme";
 
 const CustomLink = ({ href, title, className = "" }) => {
@@ -90,9 +90,10 @@ function Navbar() {
       <nav>
         <CustomLink href="/" title="Home" className="mr-4" />
         <CustomLink href="/about" title="About" className="mx-4" />
-        <CustomLink href="/skills" title="Skills" className="mx-4" />
         <CustomLink href="/projects" title="Realizations" className="mx-4" />
+        <CustomLink href="/skills" title="Skills" className="mx-4" />
         <CustomLink href="/articles" title="Articles" className="ml-4" />
+        <CustomLink href="/contact" title="Contact" className="ml-8" />
       </nav>
       <nav className="nav-social-links-container">
         <motion.a
@@ -177,9 +178,10 @@ function Navbar() {
         <nav className="nav-mobile-links-container">
           <CustomMobileLink href="/" title="Home" className="" toggle={handleClick} />
           <CustomMobileLink href="/about" title="About" className="" toggle={handleClick} />
-          <CustomMobileLink href="/skills" title="Skills" className="" toggle={handleClick} />
           <CustomMobileLink href="/projects" title="Realizations" className="" toggle={handleClick} />
+          <CustomMobileLink href="/skills" title="Skills" className="" toggle={handleClick} />
           <CustomMobileLink href="/articles" title="Articles" className="" toggle={handleClick} />
+          <CustomMobileLink href="/contact" title="Contact" className="" toggle={handleClick} />
         </nav>
         <nav className="nav-social-links-container mt-2">
           <motion.a

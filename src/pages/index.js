@@ -48,7 +48,7 @@ export default function Home() {
                   CV <LinkArrow className="!w-6 !h-6 ml-1" />
                 </Link>
                 <Link
-                  href="mailto:kagmeni77@gmail.com"
+                  href="/contact"
                   target="_blank"
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >Contact</Link>

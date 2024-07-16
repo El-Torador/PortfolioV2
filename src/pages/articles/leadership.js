@@ -10,16 +10,16 @@ export default function Article() {
     <>
       <Head>
         <title>Jordan Kagmeni · Leadership</title>
-        <meta name="description" content="Dans la peau d'un Leader" />
+        <meta name="description" content="In the skin of a Leader" />
       </Head>
       <article className="pt-20 mx-auto w-3/6 lg:w-full lg:px-4 px-4 py-6 md:px-6 lg:py-16 md:py-12 dark:text-light">
         <div className="mx-auto">
           <div className="space-y-4 my-4">
             <h1 className="text-5xl md:text-3xl font-extrabold tracking-tight leading-[3.5rem] dark:text-light">
-              Dans la peau d'un Leader
+              In the skin of a Leader
             </h1>
             <p className="text-gray-500 dark:text-gray-400 dark:text-light/70">
-              Qualité indispensable pour monter en échelle.
+              Quality essential for climbing the scale.
             </p>
           </div>
           <figure>
@@ -33,68 +33,74 @@ export default function Article() {
           </figure>
           <div>
             <p className="mt-8">
-              Dans un cadre professionnel ou même personnel, le leadership est essentielle pour une bonne cohésion. Un bon leader est capable de motiver et d'inspirer les autres à atteindre des objectifs communs, tout en gardant une vision claire de la direction à suivre. En tant que leader, il est important de savoir comment prendre des décisions éclairées, gérer les conflits de manière constructive et communiquer efficacement avec son équipe. <br /> <br />
-              Reconnaître et de mettre en valeur les talents uniques de chaque membre de l'équipe, afin de tirer le meilleur parti de chacun fait parti des cordes d'un leader tout en ayant et en sachant incarner ses valeurs et des principes qui sont des piliers pour contruire une équipe solide et performante.
+              In a professional or even personal setting, leadership is essential for good cohesion. A good leader is able to motivate and inspire others to common goals, whileining a clear vision of the direction to follow. As a leader, it is important to know how to make informed decisions, manage conflicts constructively and communicate effectively with your team. <br />
+
+              Recognizing and highlighting the unique talents of each member of the team, in order to make the most of each is part of the ropes of a leader while having and knowing to embody his values and principles that are the pillars for building a strong and performing team.
             </p>
-            <h3 className="my-8 text-2xl font-bold tracking-tight dark:text-light">A. Définition du Leadership</h3>
+            <h3 className="my-8 text-2xl font-bold tracking-tight dark:text-light">A. Definition of Leadership</h3>
             <p>
-              Selon <b>John C. Maxwell</b>, le leadership peut être défini comme l'influence, c'est-à-dire la capacité à inciter les autres à suivre une vision ou à atteindre des objectifs communs. Maxwell résume souvent cette idée par l'affirmation : "Le leadership, c'est l'influence – rien de plus, rien de moins." Cette définition souligne que l'essence du leadership réside dans l'aptitude d'une personne à influencer les comportements, les pensées et les attitudes des autres. Je dirai que c'est l'aptitude d'une personne à influencer <b>positivement</b> les comportements... des autres car pour moi être un bon leader c'est impacter les autres positivement tout en montrant l'exemple et en étant un modèle pour les autres. <br />Un leader doit avoir cet instinc empathique naturel et savoir user de son intelligence émotionnelle et rationnelle en restant fidèle à sa vision afin de guider son équipe vers le succès. Il doit aussi se remettre en question la pluspart du temps car nous sommes humains et nous faisons des erreurs et c'est ces défauts qui crée un rapprochement plus fort avec les autres en leur donnant le sentiment qu'ils peuvent aussi se tromper et que c'est normal.
+              According to John C. Maxwell, leadership can be defined as influence, i.e. the ability to motivate others to follow a vision or common goals. Maxwell often summarizes this idea by saying, "Leadership is influence – nothing more, nothing less." This definition emphasizes that the essence of leadership lies in a person's ability to influence the behavior, thoughts and attitudes of others. I would say that it is the ability of a person to positively influence the behaviour of others... because to me being a good leader is to impact others positively while showing an example and being a model for others. <br />A leader must have this natural empathic instinct and know how to use his emotional and rational intelligence while remaining faithful to his vision to guide his team towards success. It also has to question itself most of the time because we are human and we make mistakes and it is these flaws that create a stronger connection with others by giving them the feeling that they can also be wrong and that is normal.
             </p>
           </div>
-          <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">II. Comprendre le rôle d'un leader</h2>
+          <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">I. Understanding the role of a leader</h2>
           <div>
             <p>
 
-              Il est indéniable que le rôle du leader est complexe et multifacette. il se doit d'être indulgent et de savoir écouter les autres. Le leader va se manifester dans des réalisations d'équipe où il va définir une vision et trouver des personnes qui vont l'accompagner dans celle-ci. Il va aussi se manifester dans des moments de crise où il va devoir prendre des décisions difficiles et impopulaires mais ce qui le pousse à surmonter les difficultés c'est la confiance que les autres ont en vers lui et sachant qu'il se doit de ne pas les décevoir, il se relèvera toujours pour eux. <br /> <br /> Autrefois, je n'arrivais pas à assumer mon leadership de peur de décevoir les autres mais j'ai appris que le leadership est une qualité qui se travaille et qui se développe avec le temps et qu'il est d'une responsabilité et d'un privilège qui doit être exercé avec intégrité et éthique.
+              It is undeniable that the role of the leader is complex and multifaceted. He must be indulgent and know how to listen to others. The leader will manifest himself in team achievements where he will define a vision and find people who will accompany him in it. He will also manifest himself in times of crisis where he will have to make difficult and unpopular decisions but what drives him to overcome the difficulties is the confidence that others have in him and knowing that it is necessary not to disappoint them, he will always rise up for them. <br /> In the past, I was unable to assume my leadership because of fear of disappointing others, but I learned that leadership is a quality that works and grows with time and that it is a responsibility and a privilege that must be exercised with integrity and ethics.
             </p>
           </div>
-          <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">III. Qualités d'un leader efficace</h2>
+          <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">III. The qualities of an effective leader</h2>
           <div>
             <p>
-              Afin de garantir le bien-être de vos employés au travail et des résultats positifs pour votre entreprise, voici six qualités qui vous mèneront à un bon leader: <br /> <br />
+              To ensure the well-being of your employees at work and positive results for your company, here are six qualities that will lead you to a good leader: <br />
 
 
               <ul className="list-disc">
-                <li><b> La communication interpersonnelle</b>: Un leader doit être à la fois un excellent communicant et un bon interlocuteur. La communication interpersonnelle porte non seulement sur les mots que vous employez, mais également sur votre ton, votre langage corporel, vos expressions faciales et vos gestes.</li> <br />
-                <li><b>L’écoute active</b>: Chaque leader doit faire preuve d’écoute active, une compétence incontournable en communication. Cette faculté d’écoute peut vous aider à mieux comprendre les besoins personnels, défis et préoccupations de chaque membre de votre équipe et à les aborder de manière proactive. Grâce à cela, vous pouvez obtenir des rapports et laisser une impression positive.</li><br />
-                <li><b>Savoir établir des objectifs</b>: Pour un leader, il peut être ardu de rassembler ses subordonnés atour d’une vision commune. Pour cela, il faut fixez des objectifs clairs et quantifiables. Vos subordonnés pourront ainsi se rassembler et se souder autour d’objectifs communs.</li><br />
-                <li><b>La résolution de conflits</b>: Parfois, des conflits surviennent entre les employés ou les services, et il incombe à la direction d’atténuer les tensions et de rassembler les membres du personnel. Il faut s’armer de patience, communiquer de façon cohérente et prendre des mesures immédiatement. Si vous traitez tous les conflits, l’environnement de travail sera plus sain et positif pour toutes les personnes impliquées.</li><br />
-                <li><b>Motiver ses troupes</b>: Le stress et les charges de travail importantes peuvent miner le moral des équipes et menacer la productivité. Il est impératif de rester à l’écoute de ses équipes et de tirer le meilleur d’elles. Pour motiver efficacement votre équipe, n’hésitez pas à montrer l’exemple et proposez aux employés d’atteindre des objectifs personnels. Prenez le temps de connaître les ambitions de chacun et aidez-les à acquérir les compétences nécessaires à la réussite de ces objectifs.</li><br />
-                <li><b>La prise d’initiatives</b>: Les leaders doivent prendre de nombreuses décisions. Celles-ci vont des décisions lourdes de conséquences, telles que le recrutement d’un nouveau membre d’équipe, aux plus évidentes, comme le choix de déléguer ou non une tâche. Plus votre prise de décision sera rapide et proactive, plus votre équipe vous fera confiance. Afin d’améliorer cette compétence, il est essentiel de recueillir rapidement toutes les informations dont vous avez besoin, d’évaluer les résultats potentiels et de vous fier à votre expérience et à votre instinct.</li>
+                <li><b> Interpersonal communication</b>: A leader must be both an excellent communicator and a good interlocutor. Interpersonal communication involves not only the words you use, but also your tone, body language, facial expressions and gestures.</li> <br />
+
+                <li><b>Active listening</b>: Every leader must demonstrate active listening, an indispensable communication skill. This listening ability can help you better understand and proactively address the personal needs, challenges and concerns of each member of your team. Thanks to this, you can get reports and leave a positive impression.</li><br />
+
+                <li><b>Know how to set goals</b>: For a leader, it can be difficult to bring his subordinates together for a common vision. For this, clear and quantifiable targets must be set. Your subordinates will be able to gather and merge around common goals.</li><br />
+
+                <li><b>Conflict resolution</b>: Sometimes conflicts arise between employees or departments, and it is up to management to alleviate tensions and bring staff together. We need to be patient, communicate consistently and take immediate action. If you deal with all conflicts, the working environment will be healthier and more positive for all those involved.</li><br />
+
+                <li><b>Motivate his troops</b>: Stress and heavy workloads can undermine team morale and threaten productivity. It is imperative to listen to your teams and get the best out of them. To effectively motivate your team, do not hesitate to set an example and encourage employees to personal goals. Take the time to learn about everyone’s ambitions and help them acquire the skills they need to succeed in achieving those goals.</li><br />
+
+                <li><b>Initiative</b>: Leaders have to make many decisions. These range from heavy-handed decisions, such as recruiting a new team member, to the most obvious ones, like choosing to delegate a task or not. The faster and more proactive your decision-making, the more confident your team will be. In order to improve this skill, it is essential to quickly gather all the information you need, to evaluate potential outcomes, and to rely on your experience and instinct.</li>
               </ul>
             </p>
           </div>
-          <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Mon Parcours en Leadership 👷‍♂️</h2>
+          <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">My Leadership Course 👷‍♂️</h2>
           <div>
             <p>
-              Mon parcours est parsemé de trace de leadership manifesté par mes actions et qui ont su impacter mon environnement. <br /><br />
+              My journey is filled with leadership traces manifested by my actions and that have had an impact on my environment. <br /><br />
             </p>
             <ol className="list-decimal">
               <li>
-                <strong>LesBonsArtisans :</strong> Je faisais partie d'une équipe de 5 dévéloppeurs dont 2 CDI et 3 Alternants (moi y compris). j'ai su gagner la confiance de mes collègues au fil des missions réalisées et en les aidant à résoudre les problèmes qu'ils rencontraient dans leur taches communes. Je mettais aussi beaucoup d'humour dans notre bureau pour une ambiance de travail conviviale.
+                <strong>The Good Artists:</strong> I was part of a team of 5 developers including 2 CDI and 3 Alternants (me including). I was able to gain the confidence of my colleagues through the missions carried out and by helping them solve the problems they encountered in their common areas. I also put a lot of humor in our office for a friendly working atmosphere.
               </li>
               <br />
               <li>
-                <strong>Azatys :</strong> L'autonomie que j'avais chez Azatys m'a permis de prendre des initiatives sur les projets de l'entreprise en gérant une équipe de 2 freelances pour le lancement de la plateforme Azatys. J'ai su faire confiance à mes collaborateurs en leur laissant exprimer leur potentiel dans un cadre de travail sain et productif.
+                <strong>Azatys:</strong> The autonomy I had at Azatys enabled me to take initiatives on the company's projects by managing a team of 2 freelancers for the launch of the Azati platform. I have been able to trust my employees by letting them express their potential in a healthy and productive working environment.
               </li>
               <br />
               <li>
-                <strong>GMC Assurance :</strong> Ma première expérience en tant que Lead Dev où je devais gérer une équipe de 5 développeurs juniors. L'encadrement de ces derniers a favorisé leur montée en compétence et l'aboutissement de leur objectifs personnels. Cette expérience m'a permis de progresser notamment sur la communication, la planification des objectifs et la résolution des confilts.
+                <strong>GMC Insurance:</strong> My first experience as a Lead Dev where I had to manage a team of 5 junior developers. Their leadership has helped them to become more competent and their personal goals. This experience has enabled me to make progress in communication, objective planning and conflict resolution.
               </li>
             </ol>
           </div>
-          <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Projets et Leadership 📄</h2>
+          <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">Projects and Leadership 📄</h2>
           <div>
             <p>
-              Les projets que j'ai réalisés reflètent mon approche du leadership : <br /><br />
+              The projects I've done reflect my approach to leadership: <br /><br />
             </p>
             <ul className="list-disc">
               <li>
-                <strong>Surfer :</strong> L'un des projets les plus marquant en terme d'émotion pour moi et où j'ai fais beaucoup d'erreurs. Mon côté perfectionniste m'a poussé à vouloir tout faire soi-même et ne pas déléguer. Je me suis très vite ressaisis pour empêcher l'échec du projet et nous avions terminer en beauté. J'ai appris de mes erreurs et je n'ai jamais rejeter la faute à mes collègues mais j'ai pris la responsabilité de mes actes.
+                <strong>Surfer:</strong> One of the most impressive projects in terms of emotion for me and where I made a lot of mistakes. My perfectionist side prompted me to want to do everything myself and not delegate. I quickly recovered to prevent the project from failing, and we ended up in beauty. I have learned from my mistakes and I have never blamed my colleagues, but I have taken responsibility for my actions.
               </li>
               <br />
               <li>
-                <strong>Torador Community :</strong> Ce projet, basé sur des canaux de communication en temps réel, a nécessité une direction claire et une gestion de projet agile. J'ai assuré que chaque membre de l'équipe comprenne son rôle et contribue de manière significative à l'atteinte des objectifs.
+                <strong>Torador Community :</strong> This project, based on real-time communication channels, required clear leadership and agile project management. I have ensured that each member of the team understands their role and makes a significant contribution to achieving the goals.
               </li>
             </ul>
           </div>

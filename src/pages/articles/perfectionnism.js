@@ -9,17 +9,17 @@ export default function Article() {
   return (
     <>
       <Head>
-        <title>Jordan Kagmeni · Le perfectionnisme: Qualité ou défaut ?</title>
-        <meta name="description" content="Le perfectionnisme: Qualité ou défaut ?" />
+        <title>Jordan Kagmeni · Perfectionnism</title>
+        <meta name="description" content="Perfectionnism: A Quality or a Defect?" />
       </Head>
       <article className="pt-20 mx-auto w-3/6 lg:w-full lg:px-4 px-4 py-6 md:px-6 lg:py-16 md:py-12 dark:text-light">
         <div className="mx-auto">
           <div className="space-y-4 my-4">
             <h1 className="text-5xl md:text-3xl font-extrabold tracking-tight leading-[3.5rem] dark:text-light">
-              Le perfectionnisme: Qualité ou défaut ?
+              Perfectionnism: A Quality or a Defect?
             </h1>
             <p className="text-gray-500 dark:text-gray-400 dark:text-light/70">
-              L'intersection entre la passion et la technologie
+              The intersection of passion and technology
             </p>
           </div>
           <figure>
@@ -33,37 +33,37 @@ export default function Article() {
           </figure>
           <div>
             <p className="mt-8">
-              La perfection est un bien joli mot mais reflète bien de l'iréel que du réel. Même notre nature n'est pas parfaite mais c'est son imperfection qui la rend belle et lui donne tout son sens. Le perfectionnisme dans la société peut être vu comme un avantage par certains et comme un inconveniant pas d'autres, mais, est-ce qu'on ne devrait pas juste la prendre comme elle est et tirer son épingle du jeu ? <br />Depuis tout petit, j'ai toujours voulu faire les choses parfaitement et à chaque fois que je n'y arrivais pas, je recommençais à tel point qu'aujourd'hui, si j'echoue à la 49 ième pompes, je recommence ma serie de 50 pompes à zéro. Ca peut être dur mentalement mais ça me permet de me surpasser et de faire preuve de résilience.
+              Perfection is a pretty word, but it reflects more of the irreal than the real. Even our nature is not perfect, but it is its imperfection that makes it beautiful and gives it all its meaning. Perfectionism in society may be seen as an advantage by some and as a disadvantage not by others, but, shouldn't we just take it as it is and take it out of the game? <br />Ever since I was a kid, I've always wanted to do things perfectly and every time I couldn't do it, I started again so much that today, if I miss the 49th pump, I start my 50 pump series again. It can be tough mentally, but it allows me to overtake myself and be resilient.
             </p>
-            <h3 className="my-8 text-2xl font-bold tracking-tight dark:text-light">A. Définition du perfectionnisme</h3>
+            <h3 className="my-8 text-2xl font-bold tracking-tight dark:text-light">A. Definition of perfectionism</h3>
             <p>
-              Le perfectionnisme se défini comme est un trait de personnalité multidimensionnel qui se manifeste par des attentes et des exigences extrêmement élevées envers soi-même ou les autres. Ceci se traduit par l'auto-insatisfaction de son travail et la définition des objectifs presque irréalisable ce qui peut entrainer un sentiments d'incapacité et jouer sur la confiance en soi. <br />Le perfectionnisme peut contribuer à être la meilleur version de soi-même comme elle peut aussi nous enfoncer quand elle est mal géré c'est pourquoi il faut trouver son <b>IKIGAI</b> et mettre des actions en place en direction de celui-ci. Dans cette mesure, on pourra tirer pleinement des bénéfices de perfectionnisme.
+              Perfectionism was defined as a multidimensional personality trait manifested by extremely high expectations and demands on oneself or others. This translates into self-insatisfaction with his work and the definition of almost unattainable goals which can lead to a feeling of inability and play on self-confidence. <br />Perfectionism can help to be the best version of oneself as it can also plunge us when it is mismanaged that is why we need to find its <b>IKIGAI</b> and put actions in place towards it. To this extent, the full benefits of perfectionism can be drawn.
             </p>
           </div>
-          <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">II. Perfectionnisme en tant que qualité</h2>
+          <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">II. Perfectionism as a Quality</h2>
           <div>
             <p>
-              Comme je le disais tantôt, le perfectionnisme tant que qualité peut contribuer à des résultats exceptionnels tant sur le plan personnel que professionnel. Dans le sport notemment en musculation, le perfectionnisme m'a permis d'améliorer ma compréhension de l'anatomie pour mieux visualiser la mécanique des muscles afin d'optimiser leur travail lors de mes séances. Par exemple, j'avais du mal à ressentir mon haut de pectoreau lorsque je les travaille parce que je ne visualisais pas le mouvement au sens musculaire et je ne controlais pas mon mouvement lors de la phase excentrique (qui est une phase capitale pour faire toucher le maximums de fibre musculaire) pour n'en citer que ceux-ci. <br /> <br /> Dans  le domaine professionnel, la qualité de mon travail qui est parfois irreprochable est une conséquence de mon perfectionnisme. Je prend le temps de bien comprendre les problèmes à résoudre afin de proposer des solutions qui se rapprochent le plus possible et de fournir un résultat bluffant. Savoir user de ces qualités nous permet de nous transcender et de nous démarquer des autres en faisant un peu plus et en poussant le bouchont un peu plus loin.
+              As I said at the time, perfectionism as a quality can contribute to exceptional results both personally and professionally. In the notoriously bodybuilding sport, perfectionism allowed me to improve my understanding of anatomy to better visualize the mechanics of muscles in order to optimize their work during my sessions. For example, I had a hard time feeling my chest tip when I was working on them because I didn't visualize the movement in the muscular direction and I did not control my movement during the eccentric phase (which is a crucial phase for reaching the maxima of muscular fiber) to name only these. <br /><br /> In the professional field, the quality of my work, which is sometimes irreproachable, is a consequence of my perfectionism. I take the time to understand the problems that need to be solved in order to propose solutions that are as close as possible and to deliver a bluffing result. Knowing how to use these qualities allows us to transcend ourselves and stand out from others by doing a little more and pushing the lock a little further.
             </p>
-            <h3 className="my-8 text-2xl font-bold tracking-tight dark:text-light">A. Recherche de l'excellence</h3>
+            <h3 className="my-8 text-2xl font-bold tracking-tight dark:text-light">A. Search for excellence</h3>
             <p>
-              Viser la lune pour attérir sur les étoiles est une expréssion qui résume bien le perfectionnisme. Quand on y est plongé, on peut se noyer très vite. En classe de troisième, j'étais très brillant en Mathématiques à tel point que quand j'avais 19/20, je ne dormais pas bien alors que j'avais toujours l'écart de 5 à 8 points de la deuxième note de la classe. Je commencais à me faire detester pour ça car pendant que j'étais triste de ma note, d'autres qui avait eu 10 étaient entrain de sauter de joie. <br />Au fil du temps, je me suis rendu compte que même avoir 20/20 ne me satisfaisait pas et j'ai compris que ça devenait un problème. L'excellence est une quête sans fin et savoir s'arrêter est capital.
+              Targeting the moon to draw on the stars is an expression that well summarizes perfectionism. When you dive into it, you can drown very quickly. In the third grade, I was so brilliant in Mathematics that when I was 19/20, I didn't sleep well while I always had a 5 to 8 point gap from the second grade. I was starting to get hated for that because while I was sad about my score, others who had gotten 10 were jumping out of joy. <br />Over time, I realized that even having 20/20 didn't satisfy me, and I understood that it was becoming a problem. Excellence is an endless quest and knowing how to stop is crucial.
             </p>
-            <h3 className="my-8 text-2xl font-bold tracking-tight dark:text-light">B. Attention aux détails</h3>
+            <h3 className="my-8 text-2xl font-bold tracking-tight dark:text-light">B. Carefull to details</h3>
             <p>
-              Les details sont innérentes au perfectionnisme ce qui marque la différence entre un travail bien fait et un travail qui se veut "parfait". Dans le développement logiciel, les détails peuvent être gage de perte de temps quand l'essentiel n'a pas encore été fait. Il faut savoir éliminer, si pas mettre de côté les détails afin d'entrer dans les delais de livraison et dans les budgets du projet. <br /> Il est donc essentiel de prendre du recul et de bien définir les éléments important des détails pour ne pas se perdre dans une boucle d'insatisfaction du à ses détails.
+              The details are inherent in perfectionism, which marks the difference between a work well done and a work that wants to be "perfect". In software development, details can be a waste of time when the most important thing has not been done yet. You have to know how to eliminate, if not put aside the details in order to enter the delays of delivery and in the budgets of the project. <br /> It is therefore essential to take a step back and define the important elements of the details well so as not to get lost in a loop of dissatisfaction with the details.
             </p>
           </div>
           <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">
-            III. Perfectionnisme en tant que défaut
+            III. Perfectionism as a Fault
           </h2>
           <div>
             <p>
-              Malheuresement, le perfectionnisme a deux facettes qu'il faut savoir gérer avec modération. Quand apprend à se connaitre et qu'on est perfectionniste, on est subceptible de tomber dans ce côté du perfectionnisme qui peut être néfaste emotionnellement. Il est donc primordial de savoir remettre en question ses habitudes, de s'écouter et d'écouter son entourage. Sans quoi, on risque basculer profondement dans la partie sombre du perfectionnisme et passer à côté de l'essentiel. <br /> Ceci passe par un détachement progressif et un esprit d'auto-critique équilibré pour savoir se recompenser et se féliciter de ses accomplissements.
+              Unfortunately, perfectionism has two facets that must be managed with moderation. When you get to know yourself and you are a perfectionist, you are susceptible to falling into that side of perfectionism that can be emotionally damaging. It is therefore essential to know how to question your habits, to listen to yourself and listen to your neighbors. Otherwise, we risk going deep into the dark part of perfectionism and missing the essential. <br /> This involves a gradual detachment and a balanced self-critical spirit in order to reward and commend oneself for their achievements.
             </p>
-            <h3 className="my-8 text-2xl font-bold tracking-tight dark:text-light">A. Crainte de l'échec</h3>
+            <h3 className="my-8 text-2xl font-bold tracking-tight dark:text-light">A. Fear of failure</h3>
             <p>
-              L'échec a beaucoup été considéré comme quelque chose de mal mais en réalité, c'est une opportunité d'apprendre vraiment. Dans ma vie, j'ai toujours fait de mon possible afin d'éviter l'échec alors que l'échec constructif est parfois idéal pour se remettre en question et apprendre de ses erreurs afin de revenir plus fort.<br /> J'ai eu un parcours académique sans faute mais quand j'ai été confronté à la vie réelle, j'ai pris une claque d'échecs et j'ai du apprendre à me relever et à me battre pour atteindre mes objectifs. Cette crainte peut nous pousser à nous surpasser par tous les moyens comme elle peut nous paralyser et nous empêcher d'atteindre notre plein potentiel. <br />Affronter ses peurs est aussi un exercice d'introspection qui nous poussent à combattre nos propres démons et ce que j'ai constaté c'est qu'à chaque fois que je le faisais, je ressortais plus fort.
+              Failure has long been seen as something bad, but in reality it is an opportunity to really learn. In my life, I've always done my best to avoid failure, whereas constructive failure is sometimes ideal for questioning and learning from mistakes in order to get back stronger.<br /> I had a flawless academic journey, but when I was faced with real life, I took a chess battle, and I had to learn how to stand up and fight to my goals. This fear can lead us to overcome ourselves by all means, as it can paralyze us and prevent us from reaching our full potential. <br />Confronting her fears is also an exercise of introspection that drives us to fight our own demons and what I noticed is that every time I did it, I stood out stronger.
             </p>
           </div>
           <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">References:</h2>

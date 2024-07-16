@@ -1,15 +1,14 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import AnimatedNumbers from "@/components/AnimatedNumbers";
-import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import TransitionEffect from "@/components/TransitionEffect";
 import profilePic from '../../public/images/profile/Torador.jpg'
-import SoftSkills from "@/components/SoftSkiils";
 
 function about() {
   return (<>
@@ -24,23 +23,15 @@ function about() {
         <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
           <section className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
             <h2 className="mb-4 text-lg font-semibold uppercase text-dark/75 dark:text-light/75">Biography</h2>
-            <p className="font-medium">
-              Hi, I&apos;m Jordan KAGMENI, a fullstack developer with a passion for creating beautiful,
-              functional,
-              and user-centered digital experiences. With 4 years of experience in the field. I am always looking
-              for new and innovative ways to bring my clients or employees visions to life.
+            <p className="font-normal">
+              Computer science is involved in several stages of my life. First of all, between my 6 and 12 years old, I'm a video game geek and my friends hated playing against me every time. Sometimes I pretended to be weak, but in the end, I always won them. Then, between the ages of 12 and 16, I continued playing in parallel with my studies. My father offered me my first computer as a reward after my award for the best student in mathematics at my high school (Manengouba High School in Cameroon) in the 3rd grade.<br /> I've always wondered how video games work, so I decided to start with them. I fall on several sites, including <b>Developpez.com and the site Du Zero</b>. I start learning things and after two months, I create my first <b>RPG game in C</b>, and that's where my passion for computing starts to take off.
             </p>
-            <p className="my-4 font-medium">
-              I believe that engineering design goes beyond aesthetics; it&apos;s about solving problems and
-              creating intuitive, enjoyable experiences for users.
-              I&apos;m also a perfectionnist, I always strive to deliver the best quality possible. I am a quick
-              learner and I am always looking for new challenges.
+            <p className="my-4 font-normal">
+              After getting my bachelor's degree, my parents decide to enroll me in physics school (a field I also love) for financial troubles where I'm a year old and I learn so much while discovering other computer enthusiasts like me. After this year, I take an entrance contest to an <b>IAI (African Institute of Computer Science)</b> computer engineering school that I obtain and thanks to the sacrifices of my parents and older sisters, I manage to get closer to my dream of being in computer science and practising my passion.<br /> Today, I am an expert in software engineering and I am able to intervene throughout the technical and managerial chain of software construction thanks to my 3 years of training at <b>IAI and ESIEA</b> and my experience accumulated in my different achievements and learning missions.
             </p>
-            <p className="font-medium">
-              When I&apos;m not coding, I engage in various activities such as sports (Weight training,
-              Basketball, Boxing, Running...), reading, tutoring (Algorithms & Programming, Mathematics,
-              Physics...) and even karaoke. I also learn new things. Currently, I am deepening my knowledge of
-              economics and astronomy while learning to play the guitar.
+            <p className="font-normal">
+
+              When I don't program, I do a lot of different things like sports (muscle training, basketball, boxing, running...), reading, tutoring (algorithm & programming, mathematics, physics) and even karaoke. I also discover new things. Right now, I'm immersed in economics and astronomy while learning how to play the guitar.
             </p>
           </section>
 

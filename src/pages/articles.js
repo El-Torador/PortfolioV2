@@ -8,6 +8,7 @@ import Layout from "@/components/Layout";
 import TransitionEffect from "@/components/TransitionEffect";
 import Tag from "@/components/tag";
 import vpcMongoArticle from "../../public/images/articles/article1.jpeg";
+import monorepoArticle from "../../public/images/articles/pnpm.png";
 import tdd from "../../public/images/articles/tdd.png";
 import reactImage from "../../public/images/articles/react.webp";
 import vui from "../../public/images/articles/vui.png";
@@ -121,11 +122,11 @@ function articles() {
             type="Realization"
           />
           <FeaturedArticle
-            imgUrl={vpcMongoArticle}
-            title="Create a secure connection between App Runner and Mongo DB Atlas in an AWS infra-structure using VPC"
-            time="5 min read"
-            summary="Discover how to create a secure connection with Mongo DB Atlas in an AWS infra-structure using VPC."
-            link="https://www.linkedin.com/pulse/cr%2525C3%2525A9er-une-connexion-s%2525C3%2525A9curis%2525C3%2525A9-entre-app-runner-et-mongo-jordan-kagmeni-dolxe/?trackingId=5qSj9Ce9RDuNwT7WQubxhA%3D%3D"
+            imgUrl={monorepoArticle}
+            title="Create your monorepo with PNPM"
+            time="3 min read"
+            summary="Discover how to create a monorepo with PNPM."
+            link="/articles/monorepo"
             type="Skill"
           />
           <FeaturedArticle
@@ -183,6 +184,14 @@ function articles() {
             summary="Discover the impact of Covid 19 on the Health Genius platform."
             link="/articles/heathGenius"
             type="Realization"
+          />
+          <FeaturedArticle
+            imgUrl={vpcMongoArticle}
+            title="Create a secure connection between App Runner and Mongo DB Atlas in an AWS infra-structure using VPC"
+            time="5 min read"
+            summary="Discover how to create a secure connection with Mongo DB Atlas in an AWS infra-structure using VPC."
+            link="https://www.linkedin.com/pulse/cr%2525C3%2525A9er-une-connexion-s%2525C3%2525A9curis%2525C3%2525A9-entre-app-runner-et-mongo-jordan-kagmeni-dolxe/?trackingId=5qSj9Ce9RDuNwT7WQubxhA%3D%3D"
+            type="Guide"
           />
         </ul>
         {/* <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">All Articles</h2>

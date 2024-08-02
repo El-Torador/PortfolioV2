@@ -49,8 +49,7 @@
   }
 
   .skill {
-    @apply absolute flex items-center justify-center rounded-full font-semibold bg-dark
-     text-light shadow-dark cursor-pointer dark:bg-light dark:text-dark lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 sm:bg-transparent sm:dark:bg-transparent sm:text-dark sm:dark:text-light sm:font-bold
+    @apply absolute flex items-center justify-center rounded-full font-semibold shadow-dark cursor-pointer lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 sm:bg-transparent sm:dark:bg-transparent sm:text-dark sm:dark:text-light sm:font-bold
   }
 
   .featured-section-container {

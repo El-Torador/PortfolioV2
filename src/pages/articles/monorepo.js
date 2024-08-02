@@ -4,7 +4,8 @@ import Image from "next/image";
 import monorepo from "../../../public/images/articles/pnpm.png";
 import evolution from "../../../public/images/articles/evolution.png";
 import comparaison from "../../../public/images/articles/comparaison.png";
-import { LinkArrow } from "@/components/Icons";
+import webhookImg from "../../../public/images/articles/webhook.png";
+import archi from "../../../public/images/articles/archi.png";
 import Code from "@/components/Code";
 import { command1, command10, command11, command2, command3, command4, command5, command6, command7, command8, command9, dirStructure, workspace } from "@/constants";
 
@@ -158,6 +159,29 @@ export default function Article() {
             <Code code={command9} language="json" showLineNumbers /> <br />
             <Code code={command10} language="json" showLineNumbers /> <br />
             <Code code={command11} language="bash" showLineNumbers /> <br />
+          </div>
+          <h2 className="my-8 text-3xl font-bold tracking-tight dark:text-light">How i use this</h2>
+          <div>
+            <figure>
+              <Image
+                alt="Webhooks Project Image"
+                className="aspect-auto object-cover w-full h-full"
+                src={webhookImg}
+              />
+              <figcaption className="text-gray-500 text-xs">Webhooks With PNPM MonoRepo</figcaption>
+            </figure>
+            <br />
+            I worked with good craftsmen on the migration of a set of services called Webhooks that shared the same dependencies from a multirepo architecture to a monorepo. Today, the <strong>DX (Developer Experience)</strong> has been significantly enhanced with <strong>ease of maintenance, 100% redundant code reduction and almost simple handling thanks to structured documentation ranging from project initialization in a local environment to the scheme of infrastructure architecture in staging and production</strong>. <br />
+            I pushed this project further by also integrating a <strong>Continuous Deployment of Releases in the different environments (staging and production) with semantically versioned docker images</strong>. <br /><br />
+            <figure>
+              <Image
+                alt="Architecture Image"
+                className="aspect-auto object-cover w-full h-full"
+                src={archi}
+              />
+              <figcaption className="text-gray-500 text-xs">Architecture Webhooks in AWS</figcaption>
+            </figure>
+            <br />
           </div>
         </div>
       </article>

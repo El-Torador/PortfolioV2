@@ -54,7 +54,7 @@ function Experience() {
           position="FullStack Engineer"
           company="LesBonsArtisans"
           companyLink="https://www.lesbonsartisans.fr"
-          time="October 2022 - October 2024"
+          time="October 2022 - Now"
           address="Clichy, France"
           work="Development of intelligent reminder functionality (LLM models, text to speech, voiceMail)
 Creation of a private library as a layer between our entities and our database (ORM, CI/CD, Versioning)

@@ -54,13 +54,16 @@ function Experience() {
           position="FullStack Engineer"
           company="LesBonsArtisans"
           companyLink="https://www.lesbonsartisans.fr"
-          time="October 2022 - Now"
+          time="October 2023 - Now"
           address="Clichy, France"
           work="Development of intelligent reminder functionality (LLM models, text to speech, voiceMail)
 Creation of a private library as a layer between our entities and our database (ORM, CI/CD, Versioning)
 Migration of apis route architecture into webhooks components (MonoRepo, CI/CI, Tests, AWS, NGNIX)
 Database optimization through horizontal scaling on Mongo DB (MONGO SHARDING),
-Bug resolution."
+Bug resolution.
+Design of front-end and back-end workflows integrating LLM models (Groq, GPT)
+Development Business MCP for help agents to their tasks (Node js)
+"
         />
 
         <Details
